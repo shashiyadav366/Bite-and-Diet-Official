@@ -1,0 +1,173 @@
+<?php
+ob_start();
+session_start();
+
+$_SESSION['redirect_url'] = $_SERVER['REQUEST_URI'];
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    header("Location: ../login.php");
+    exit;
+}
+
+include '../Header.php';
+?>
+
+<div class="ttm-page-title-row">
+    <div class="ttm-bg-layer ttm-page-title-row-bg-layer"></div>
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-12">
+                <div class="ttm-textcolor-white title-box">
+                    <div class="ttm-textcolor-white page-title-heading">
+                        <h1 class="title">Visitors Details</h1>
+                    </div>
+                    <div class="breadcrumb-wrapper">
+                        <span><a href="/" title="Homepage"><i class="ti ti-home"></i> Home </a></span>
+                        <span class="ttm-bread-sep">: : </span>
+                        <span><span class="ttm-textcolor-skincolor">Visitors Details</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5" style="min-height: 400px;">
+    <h2 class="custom_heading text-center my-4">Visitor Data</h2>
+
+    <?php
+    $file = __DIR__ . '/visitors.json';
+    $ignored_ips = ['150.129.237.196', '125.63.113.186', '2409:40d0:2029:8c0a:c96:75ff:fe0b:2cd1', '152.59.180.114'];
+    $unique_visitors = [];
+    $current_date = date('Y-m-d');
+
+    if (!file_exists($file)) {
+        echo "<p class='text-center text-danger'>Error: visitors.json file does not exist.</p>";
+        error_log("visitors.json file does not exist in path: " . $file);
+    } else {
+        $data = json_decode(file_get_contents($file), true);
+
+        foreach ($data as $visitor) {
+            if (in_array($visitor['ip'], $ignored_ips)) {
+                continue;
+            }
+
+            foreach ((array)($visitor['visits'] ?? []) as $visit) {
+                $date = date('Y-m-d', strtotime((string)($visit['time'] ?? '')));
+                if (!isset($unique_visitors[$date])) {
+                    $unique_visitors[$date] = [];
+                }
+
+                $existing_index = array_search($visitor['ip'], array_column($unique_visitors[$date], 'ip'));
+                if ($existing_index === false) {
+                    $unique_visitors[$date][] = [
+                        'ip' => $visitor['ip'],
+                        'city' => $visitor['city'] ?? '',
+                        'region' => $visitor['region'] ?? '',
+                        'country' => $visitor['country'] ?? '',
+                        'visits' => [$visit],
+                    ];
+                } else {
+                    $unique_visitors[$date][$existing_index]['visits'][] = $visit;
+                }
+            }
+        }
+    }
+
+    krsort($unique_visitors);
+    ?>
+
+    <h5 class="text-center">Total Unique Visitors:
+        <?php
+        $visitor_ips = [];
+        foreach ($unique_visitors as $visitors_by_date) {
+            foreach ($visitors_by_date as $visitor) {
+                $visitor_ips[] = $visitor['ip'];
+            }
+        }
+        echo htmlspecialchars(count(array_unique($visitor_ips)));
+        ?>
+    </h5>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="accordion mb-20" id="accordion">
+                <?php foreach ($unique_visitors as $date => $visitors): ?>
+                    <?php $unique_visitor_count = count(array_unique(array_column($visitors, 'ip'))); ?>
+                    <div class="toggle ttm-style-classic ttm-toggle-title-border <?= $date === array_key_first($unique_visitors) ? 'active' : '' ?>">
+                        <div class="toggle-title">
+                            <a href="#collapse_<?= htmlspecialchars($date) ?>" data-parent="#accordion" data-toggle="collapse">
+                                <?= htmlspecialchars($date) ?> (Visitors: <?= htmlspecialchars($unique_visitor_count) ?>)
+                            </a>
+                        </div>
+                        <div id="collapse_<?= htmlspecialchars($date) ?>" class="toggle-content collapse <?= $date === array_key_first($unique_visitors) ? 'show' : '' ?>">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Location</th>
+                                            <th>Pages Visited</th>
+                                            <th>Date & Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php foreach ($visitors as $visitor): ?>
+                                            <?php foreach ($visitor['visits'] as $visit): ?>
+                                                <tr style="text-align: start;">
+                                                    <td><?= htmlspecialchars((string)($visitor['city'] ?? ''), ENT_QUOTES, 'UTF-8') . ', ' . htmlspecialchars((string)($visitor['country'] ?? ''), ENT_QUOTES, 'UTF-8') ?></td>
+                                                    <td>
+                                                        <ul class="ttm-list ttm-list-style-icon">
+                                                            <?php foreach ((array)($visit['pages'] ?? []) as $page): 
+                                                                $full_url = 'https://biteanddiet.in' . $page;
+                                                                $display_url = strlen($page) > 40 ? substr($page, 0, 40) . '...' : $page;
+                                                            ?>
+                                                                <li>
+                                                                    <i class="ttm-textcolor-skincolor fa fa-arrow-circle-right"></i>
+                                                                    <span class="ttm-list-li-content">
+                                                                        <a href="<?= htmlspecialchars($full_url) ?>" target="_blank">
+                                                                            <?= htmlspecialchars($display_url) ?>
+                                                                        </a>
+                                                                    </span>
+                                                                </li>
+                                                            <?php endforeach; ?>
+                                                        </ul>
+                                                    </td>
+                                                    <td><?= htmlspecialchars((string)($visit['time'] ?? ''), ENT_QUOTES, 'UTF-8') ?></td>
+                                                </tr>
+                                            <?php endforeach; ?>
+                                        <?php endforeach; ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="clearfix ttm-bg ttm-bgimage-yes bg-img4 home2-cta-section ttm-bgcolor-grey ttm11">
+    <div class="ttm-bg-layer ttm-row-wrapper-bg-layer"></div>
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-lg-12">
+                <div class="clearfix row-title style2">
+                    <div class="title-header">
+                        <h2 class="title mb-15">Transform Your Body And Mind With <span class="ttm-textcolor-skincolor">Nutrition</span></h2>
+                    </div>
+                    <p>Everyone's body is completely different; therefore it's not acceptable to fit the "one-size-fits-all" concept. However, it may take long<br>to see desirable changes in your body once you begin understanding in depth.</p>
+                </div>
+                <div class="res-991-mt-30 mt-50">
+                    <a href="https://wa.me/918076596075" class="ttm-btn mb-20 ttm-btn-shape-round ttm-btn-size-md ttm-btn-style-fill ttm-btn-bgcolor-black">Start Now!</a>
+                    <a href="/form" class="ttm-btn mb-20 ttm-btn-shape-round ttm-btn-size-md ttm-btn-style-fill ml-15 ttm-btn-bgcolor-skincolor">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php
+include '../footer.php';
+ob_end_flush();
+?>

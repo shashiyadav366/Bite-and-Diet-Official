@@ -1,0 +1,126 @@
+[05-Oct-2026 10:48:36 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:48:39 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:48:50 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:48:53 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:49:27 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:52:18 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 10:52:20 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(13): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 11:03:57 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(17): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 12:01:02 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 12:01:07 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 12:01:13 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 12:44:48 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/login.php(17): cfg()
+#2 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 19:06:29 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[05-Oct-2026 21:45:49 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[06-Oct-2026 03:29:02 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[06-Oct-2026 03:29:06 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[06-Oct-2026 03:29:10 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78
+[06-Oct-2026 03:35:33 UTC] PHP Fatal error:  Uncaught RuntimeException: bd_config.php not found. It must sit one level above the web root (e.g. /home/user/bd_config.php), or be pointed at by the BD_CONFIG_FILE environment variable. in /home/biteandd/public_html/app_config.php:78
+Stack trace:
+#0 /home/biteandd/public_html/app_config.php(99): bd_config_all()
+#1 /home/biteandd/public_html/form_guard.php(51): cfg()
+#2 /home/biteandd/public_html/form_guard.php(474): form_guard_secret()
+#3 /home/biteandd/public_html/form.php(119): form_guard_hidden_fields()
+#4 {main}
+  thrown in /home/biteandd/public_html/app_config.php on line 78

@@ -1,0 +1,165 @@
+# ---------------------------------------------------
+# Enable RewriteEngine
+# ---------------------------------------------------
+RewriteEngine On
+
+# ---------------------------------------------------
+# Force HTTPS + WWW
+# ---------------------------------------------------
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.biteanddiet\.in$ [NC]
+RewriteRule ^(.*)$ https://www.biteanddiet.in/$1 [L,R=301]
+
+# ---------------------------------------------------
+# Remove fbclid and other tracking parameters
+# ---------------------------------------------------
+# Clean URL from tracking parameters
+RewriteCond %{QUERY_STRING} (^|&)(fbclid|utm_[^&]+|gclid|_hsenc|_hsmi)=[^&]+(&|$) [NC]
+RewriteRule ^ %{REQUEST_URI}? [R=301,L]
+
+# ---------------------------------------------------
+# Redirect .php URLs to extensionless URLs
+# ---------------------------------------------------
+RewriteCond %{THE_REQUEST} \.php[ \?] [NC]
+RewriteRule ^(.+)\.php$ https://www.biteanddiet.in/$1 [L,R=301]
+
+# ---------------------------------------------------
+# Pretty URL Mappings
+# ---------------------------------------------------
+RewriteRule ^video/([^/]+)/?$ video.php?slug=$1 [L,QSA]
+RewriteRule ^blog-post/([^/]+)/?$ blog-post.php?slug=$1 [L,QSA]
+RewriteRule ^search/([^/]+)/?$ search.php?term=$1 [L,QSA]
+RewriteRule ^health-tips/([\w\-]+)/?$ health-tips.php?slug=$1 [L,QSA]
+RewriteRule ^social-post/([A-Za-z0-9\-_]+)/?$ social-post.php?slug=$1 [L,QSA]
+RewriteRule ^latest-offers/([a-zA-Z0-9-]+)/?$ offer-details.php?slug=$1 [L,QSA]
+
+# ---------------------------------------------------
+# Extensionless PHP support
+# ---------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# ---------------------------------------------------
+# Fallback (custom offline page)
+# ---------------------------------------------------
+RewriteCond %{REQUEST_URI} !^/(admin|blog-post|blog-posts|video|videos|allposts|readmore|video_player|allvideos|social_posts|social-posts|customer_reviews|customer-reviews|readpost|social_post_details|healthy-living|result|assets|images|css|js) [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ /no.internet.php [L,QSA]
+
+# ---------------------------------------------------
+# Temporary Redirects (301 to clean URLs)
+# ---------------------------------------------------
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /readpost\? [NC]
+RewriteRule ^readpost$ https://www.biteanddiet.in/blog-posts? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /readmore\? [NC]
+RewriteRule ^readmore$ https://www.biteanddiet.in/blog-posts? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /video_player\? [NC]
+RewriteRule ^video_player$ https://www.biteanddiet.in/videos? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /social_post_details\? [NC]
+RewriteRule ^social_post_details$ https://www.biteanddiet.in/healthy-living? [R=301,L]
+
+RewriteRule ^allposts$ https://www.biteanddiet.in/blog-posts [R=301,L]
+RewriteRule ^allvideos$ https://www.biteanddiet.in/videos [R=301,L]
+RewriteRule ^customer_reviews$ https://www.biteanddiet.in/customer-reviews [R=301,L]
+RewriteRule ^social_posts$ https://www.biteanddiet.in/healthy-living [R=301,L]
+RewriteRule ^offers/(.*)$ https://www.biteanddiet.in/latest-offers/$1 [R=301,L]
+
+# ---------------------------------------------------
+# Enable Gzip Compression
+# ---------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE application/xml application/xhtml+xml application/rss+xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font-woff
+  AddOutputFilterByType DEFLATE application/font-woff2
+  AddOutputFilterByType DEFLATE application/x-font-ttf font/ttf font/opentype
+</IfModule>
+
+# Enable Brotli compression if available on server
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript application/x-javascript application/json
+  AddOutputFilterByType BROTLI_COMPRESS application/xml application/xhtml+xml application/rss+xml
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml
+  AddOutputFilterByType BROTLI_COMPRESS application/vnd.ms-fontobject application/x-font-woff application/font-woff2 font/ttf font/opentype
+</IfModule>
+
+# ---------------------------------------------------
+# Leverage Browser Caching
+# ---------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType application/x-javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType application/x-font-woff "access plus 1 year"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+  ExpiresByType application/x-font-ttf "access plus 1 year"
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/opentype "access plus 1 year"
+  ExpiresByType application/font-sfnt "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+</IfModule>
+
+# ---------------------------------------------------
+# Correct MIME types for fonts (helps caching + rendering)
+# ---------------------------------------------------
+<IfModule mod_mime.c>
+  AddType application/font-woff2 .woff2
+  AddType application/x-font-woff .woff
+  AddType application/vnd.ms-fontobject .eot
+  AddType font/ttf .ttf
+  AddType font/opentype .otf
+  AddType application/json .json
+  AddType image/webp .webp
+  AddType image/svg+xml .svg
+</IfModule>
+
+# ---------------------------------------------------
+# Set Cache-Control headers
+# ---------------------------------------------------
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ico|jpe?g|png|gif|webp|svg|css|js|woff2?|ttf|eot)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+  <FilesMatch "\.(html|php)$">
+    Header set Cache-Control "max-age=600, private, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ---------------------------------------------------
+# Security Headers
+# ---------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header set Vary "Accept-Encoding"
+</IfModule>
+
+# ---------------------------------------------------
+# Custom 404 Page
+# ---------------------------------------------------
+ErrorDocument 404 /error.php

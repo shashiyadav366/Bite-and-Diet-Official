@@ -1,0 +1,46 @@
+{
+  "title": "About Dietician Priyanka",
+  "description": "Dietician Priyanka, a specialist in clinical nutrition, provides personalized diet plans to help clients manage health conditions, reduce medication dependency, and achieve their wellness goals.",
+  "introduction": {
+    "headline": "Meet Dietician Priyanka",
+    "subheadline": "Empowering health through nutrition.",
+    "content": "With over 10 years of experience in clinical nutrition and dietetics, Priyanka specializes in weight loss, chronic disease management, and lifestyle changes. Her mission is to make healthcare accessible and affordable by offering personalized diet plans that focus on treating root causes."
+  },
+  "credentials": {
+    "education": "Postgraduate in Clinical Nutrition & Dietetics from Vinoba Bhave University",
+    "experience": "Over 10 years as a diet consultant in hospitals, health care centers, and wellness clinics",
+    "focus": "Customized Medical Nutrition Therapy for conditions like obesity, diabetes, PCOS, hypertension, and more."
+  },
+  "methodology": {
+    "headline": "Priyanka's Approach",
+    "content": "Priyanka develops individualized nutrition plans based on each client's unique health profile, including age, medical history, lifestyle, and health goals. She believes in sustainable, long-term health improvements through gradual lifestyle changes rather than quick fixes."
+  },
+  "services": {
+    "headline": "What I Offer",
+    "services_list": [
+      "Weight Management Programs (Weight Loss/Gain)",
+      "Medical Nutrition Therapy for Chronic Conditions",
+      "Diet Plans for Women’s Health",
+      "Personalized Plans for Digestive Health",
+      "Nutrition Counseling for Corporate Employees"
+    ]
+  },
+  "philosophy": {
+    "headline": "My Philosophy",
+    "content": "I believe that food is medicine, and that small, sustainable changes to diet and lifestyle can drastically improve health. My approach focuses on incorporating variety into meals to ensure balanced nutrition, without depriving clients of the foods they love."
+  },
+  "clientele": {
+    "headline": "Who I Work With",
+    "content": "From students to CEOs, I cater to diverse groups of clients, addressing issues like PCOS, hypothyroidism, diabetes, and more. My clients range from those seeking general wellness to those with chronic or severe health conditions."
+  },
+  "youtube_channel": {
+    "headline": "Watch My YouTube Channel",
+    "description": "I regularly post videos to bust myths about nutrition and healthy eating habits. My channel covers topics like managing diabetes with diet, debunking myths around carbs, and the truth about health supplements.",
+    "url": "https://www.youtube.com/channel/UCwl1Lbkl0PhwYm8j3j8fo1A"
+  },
+  "contact": {
+    "headline": "Get In Touch",
+    "phone": "+91-8826549878",
+    "email": "yourbitemydiet@gmail.com"
+  }
+}

@@ -1,0 +1,9 @@
+=== Blog beautification report 2026-10-08 05:27:25 ===
+Posts checked         : 120
+Numbered lists (badges): 147
+Bullet lists           : 187
+Nested sub-lists       : 27
+Digit/roman-only diffs : 66
+Residual numbered paras: 18
+Failures               : 0
+All posts beautify cleanly.

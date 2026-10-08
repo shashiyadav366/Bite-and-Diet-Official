@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Nutrition Beginner Course",
+    "description": [
+      "Ideal for those interested in basic nutrition for personal or family use.",
+      "Short-term course (1-2 months) perfect for home use.",
+      "Graduates can apply their knowledge to make informed dietary adjustments."
+    ],
+    "originalPrice": "15000",
+    "offerPrice": "9999"
+  },
+  {
+    "title": "Nutrition Advisory Certification",
+    "description": [
+      "Ideal for those seeking in-depth knowledge to advise clients effectively.",
+      "Comprehensive 3-4 month course, suitable for students or professionals.",
+      "Gain expertise in dietary guidelines for managing conditions like Diabetes, High Blood Pressure, etc.",
+      "Perfect for alternative practitioners and personal trainers looking to complement their services."
+    ],
+    "originalPrice": "25000",
+    "offerPrice": "19999"
+  },
+  {
+    "title": "Internship and Training Program",
+    "description": [
+      "Comprehensive 3-month internship and training program for hands-on experience.",
+      "Option for focused 1-month internship at just Rs. 7,500/-.",
+      "Specialized modules include topics like Weight Loss, Becoming a Diabetic Educator through our online nutrition course, and Female Health Management.",
+      "Ideal for students and professionals looking to enhance practical skills in specific areas."
+    ],
+    "originalPrice": "25000",
+    "offerPrice": "15000"
+  }
+]

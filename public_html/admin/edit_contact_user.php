@@ -1,0 +1,21 @@
+<?php include '../Header.php'; ?><div class="ttm-page-title-row"><div class="ttm-bg-layer ttm-page-title-row-bg-layer"></div><div class="container"><div class="row"><div class="col-md-12 text-center"><div class="ttm-textcolor-white title-box"><div class="ttm-textcolor-white page-title-heading"><h1 class="title">Edit Contact User Details</h1></div><div class="breadcrumb-wrapper"><span><a href="/"title="Homepage"><i class="ti ti-home"></i> Home </a></span><span class="ttm-bread-sep">: : </span><span><span class="ttm-textcolor-skincolor">Edit Contact User Details</span></span></div></div></div></div></div></div><section class="error-404"><header class="text-center section-title"><h5>Edit Contact Details</h5></header><div class="container pb-4"><div class="row"><div class="col-md-12"><div class="row-title style4"><section><div class="container"style="text-align:start"><?php if (session_status() === PHP_SESSION_NONE) { session_start(); }$_SESSION['redirect_url']=$_SERVER['REQUEST_URI'];if(!isset($_SESSION['loggedin'])||$_SESSION['loggedin']!==true){header("Location: ../login.php");exit;}require_once __DIR__ . '/../json_db.php';if($_SERVER["REQUEST_METHOD"]=="POST"){$id=$_POST['id'];$name=$_POST['name'];$mobile=$_POST['mobile'];$city=$_POST['city'];$occupation=$_POST['occupation'];$email=$_POST['email'];$diet=$_POST['diet'];$rows=jd_read('user_details');$updated=false;foreach($rows as $i=>$r){if(isset($r['id'])&&(int)$r['id']===(int)$id){$rows[$i]['name']=$name;$rows[$i]['mobile']=$mobile;$rows[$i]['city']=$city;$rows[$i]['occupation']=$occupation;$rows[$i]['email']=$email;$rows[$i]['diet']=$diet;$updated=true;break;}}if($updated&&jd_write('user_details',$rows)){echo '<div class="alert alert-success" role="alert">';echo 'Update successful. Redirecting to Contact Details Page . . .';echo '</div>';echo '<script>';echo 'setTimeout(function() { window.location.href = "contact_details.php"; }, 3000);';echo '</script>';}else{echo '<div class="alert alert-danger" role="alert">';echo 'Error updating record: '.($updated?'Error writing file.':'Invalid record id.');echo '</div>';}}else{if(isset($_GET['id'])){$id=$_GET['id'];$row=array();foreach(jd_read('user_details') as $r){if(isset($r['id'])&&(int)$r['id']===(int)$id){$row=$r;break;}}echo '<form method="POST" action="">';echo '<input type="hidden" name="id" value="'.$row['id'].'">';echo '<div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required class="form-control" value="'.htmlspecialchars((string)$row['name'],ENT_QUOTES,'UTF-8').'">
+</div>';echo '<div class="form-group">
+    <label for="mobile">Mobile:</label>
+    <input type="text" name="mobile" required class="form-control" value="'.htmlspecialchars((string)$row['mobile'],ENT_QUOTES,'UTF-8').'">
+</div>';echo '<div class="form-group">
+    <label for="city">City:</label>
+    <textarea name="city" required class="form-control">'.htmlspecialchars((string)$row['city'],ENT_QUOTES,'UTF-8').'</textarea>
+</div>';echo '<div class="form-group">
+    <label for="occupation">Occupation:</label>
+    <input type="text" required name="occupation" class="form-control" value="'.htmlspecialchars((string)$row['occupation'],ENT_QUOTES,'UTF-8').'">
+</div>';echo '<div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" required name="email" class="form-control" value="'.htmlspecialchars((string)$row['email'],ENT_QUOTES,'UTF-8').'">
+</div>';echo '<div class="form-group">
+    <label for="diet">Diet:</label>
+    <input type="text" required name="diet" class="form-control" value="'.htmlspecialchars((string)$row['diet'],ENT_QUOTES,'UTF-8').'">
+</div>';echo '<div class="text-center">
+                                        <input class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-btn-bgcolor-black mb-20 mt-30" type="submit" value="Update">
+                                    </div>';echo '</form>';}} ?></div></section></div></div></div></div></section><?php include '../footer.php'; ?>

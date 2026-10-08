@@ -1,0 +1,119 @@
+[
+    {
+        "id": 0,
+        "plan_name": "Orginal Price",
+        "customized_plan": "₹2,000/-",
+        "days_30": "₹4,000/-",
+        "days_100": "₹10,500/-",
+        "days_200": "₹21,000/-",
+        "days_365": "₹42,000/-"
+    },
+    {
+        "id": 1,
+        "plan_name": "Offer Price",
+        "customized_plan": "₹1,000/-",
+        "days_30": "₹3,500/-",
+        "days_100": "₹7,500/-",
+        "days_200": "₹12,000/-",
+        "days_365": "₹21,000/-"
+    },
+    {
+        "id": 2,
+        "plan_name": "Diet Plan",
+        "customized_plan": "Yes",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 3,
+        "plan_name": "Dietary Assessment",
+        "customized_plan": "Yes",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 4,
+        "plan_name": "Anthropometric Assessment",
+        "customized_plan": "Yes",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 5,
+        "plan_name": "Clinical Assessment",
+        "customized_plan": "Yes",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 6,
+        "plan_name": "Biochemical Assessment",
+        "customized_plan": "Yes",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 7,
+        "plan_name": "Daily Monitoring",
+        "customized_plan": "-",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 8,
+        "plan_name": "Follow Up Call",
+        "customized_plan": "-",
+        "days_30": "Once a week",
+        "days_100": "Once a week",
+        "days_200": "Once a week",
+        "days_365": "Once a week"
+    },
+    {
+        "id": 9,
+        "plan_name": "WhatsApp Assistance",
+        "customized_plan": "-",
+        "days_30": "Yes",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 10,
+        "plan_name": "Recipe Video",
+        "customized_plan": "-",
+        "days_30": "-",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 11,
+        "plan_name": "Maintenance Plan",
+        "customized_plan": "-",
+        "days_30": "-",
+        "days_100": "Yes",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    },
+    {
+        "id": 12,
+        "plan_name": "Nutrition Or Health Webinar",
+        "customized_plan": "-",
+        "days_30": "-",
+        "days_100": "-",
+        "days_200": "Yes",
+        "days_365": "Yes"
+    }
+]

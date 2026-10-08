@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #results {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube API Test</h1>
+    <button id="fetch-button">Fetch Data</button>
+    <div id="results"></div>
+    <script>
+        const apiKey = 'REDACTED';
+        const channelId = 'UCwl1Lbkl0PhwYm8j3j8fo1A';
+        const fetchButton = document.getElementById('fetch-button');
+        const resultsDiv = document.getElementById('results');
+
+        fetchButton.addEventListener('click', fetchData);
+
+        function fetchData() {
+            const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=id&order=date&maxResults=50`;
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const videoIds = data.items.map(item => item.id.videoId);
+                    const videoUrl = `https://www.googleapis.com/youtube/v3/videos?key=${apiKey}&id=${videoIds.join(',')}&part=snippet`;
+                    fetch(videoUrl)
+                        .then(response => response.json())
+                        .then(videoData => {
+                            const results = videoData.items.map(item => {
+                                return {
+                                    title: item.snippet.title,
+                                    videoId: item.id,
+                                    publishedAt: item.snippet.publishedAt,
+                                    thumbnail: item.snippet.thumbnails.medium.url,
+                                    description: item.snippet.description
+                                };
+                            });
+                            const jsonData = JSON.stringify(results, null, 2);
+                            resultsDiv.innerText = jsonData;
+                            const blob = new Blob([jsonData], { type: 'application/json' });
+                            const link = document.createElement('a');
+                            link.href = URL.createObjectURL(blob);
+                            link.download = 'youtube_data.json';
+                            link.click();
+                        })
+                        .catch(error => console.error('Error:', error));
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>

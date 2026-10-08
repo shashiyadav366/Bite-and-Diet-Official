@@ -1,0 +1,27 @@
+{
+  "main_pages": [
+    { "title": "Latest Offers on Diet Plans", "url": "/latest-offers", "category": "About Us" },
+    { "title": "About Dt. Priyanka - Founder & Chief Dietician", "url": "/aboutdtpriyanka", "category": "About Us" },
+    { "title": "About Bite and Diet - Our Mission & Vision", "url": "/aboutbiteanddiet", "category": "About Us" },
+    { "title": "Why Choose Bite and Diet?", "url": "/whybiteanddiet", "category": "About Us" },
+    { "title": "Success Stories - Real Results from Our Clients", "url": "/success-stories", "category": "About Us" },
+    { "title": "Meet Our Team", "url": "/our-team", "category": "About Us" },
+    { "title": "Online Diet Counselling Services", "url": "/online-counselling", "category": "Services" },
+    { "title": "Personal Counselling & Tailored Diet Plans", "url": "/personal-counselling", "category": "Services" },
+    { "title": "Plans and Packages - Choose Your Plan", "url": "/plans-and-packages", "category": "Services" },
+    { "title": "Plans and Pricing - Affordable Diet Solutions", "url": "/plans-and-price", "category": "Services" },
+    { "title": "Training Programs - Learn from the Experts", "url": "/training", "category": "Services" },
+    { "title": "Get Started with Diet Plan - Registration Form", "url": "/form", "category": "Contact Us" },
+    { "title": "Blog Posts & Articles", "url": "/blog-posts", "category": "Media" },
+    { "title": "Latest Social Posts", "url": "/social-posts", "category": "Media" },
+        { "title": "healthy Living  -  Health Tips from the Experts", "url": "/healthy-living", "category": "Media" },
+    { "title": "Videos - Health Tips & Diet Plans", "url": "/videos", "category": "Media" },
+    { "title": "Ayurvedic Herbs & Their Benefits", "url": "/ayurvedic-herbs", "category": "Media" },
+    { "title": "BMI Calculator - Check Your Body Mass Index", "url": "/bmi-calculator", "category": "Services" },
+    { "title": "Customer Reviews - Hear from Our Clients", "url": "/customer-reviews", "category": "About Us" },
+    { "title": "Frequently Asked Questions", "url": "/faq", "category": "About Us" },
+    { "title": "Privacy Policy", "url": "/privacy-policy", "category": "Legal" },
+    { "title": "Contact Us", "url": "/contact-us", "category": "Contact Us" },
+    { "title": "Terms and Conditions", "url": "/terms-and-conditions", "category": "Legal" }
+  ]
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Festival Greetings</title>
+  <style>
+    /* 🔥 Fireworks background */
+    #fireworksCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 9998;
+      pointer-events: none;
+    }
+
+    /* 🎉 Popup Greeting */
+    #festivalPopup {
+      position: fixed;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+      padding: 30px;
+      text-align: center;
+      z-index: 9999;
+      display: none;
+      animation: fadeIn 1s ease;
+    }
+
+    #festivalPopup h2 {
+      color: #ff4081;
+      margin-bottom: 15px;
+    }
+
+    #festivalPopup button {
+      background: #ff4081;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translate(-50%, -40%); }
+      to { opacity: 1; transform: translate(-50%, -50%); }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="fireworksCanvas"></canvas>
+
+  <div id="festivalPopup">
+    <h2 id="festivalTitle"></h2>
+    <p>🎊 Wishing you a very Happy Festival! 🎊</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+
+  <script>
+    async function checkFestival() {
+      const res = await fetch("festivals.json");
+      const festivals = await res.json();
+
+      const today = new Date();
+      const todayStr = ("0" + (today.getMonth()+1)).slice(-2) + "/" +
+                       ("0" + today.getDate()).slice(-2) + "/" +
+                       today.getFullYear();
+
+      const festivalToday = festivals.find(f => f.date === todayStr);
+
+      if (festivalToday && !localStorage.getItem("festivalShown_"+todayStr)) {
+        showPopup(festivalToday.name);
+        localStorage.setItem("festivalShown_"+todayStr, "yes");
+      }
+    }
+
+    function showPopup(name) {
+      document.getElementById("festivalTitle").textContent = "✨ " + name + " ✨";
+      document.getElementById("festivalPopup").style.display = "block";
+      startFireworks();
+    }
+
+    function closePopup() {
+      document.getElementById("festivalPopup").style.display = "none";
+    }
+
+    /* 🎆 Fireworks Animation */
+    function startFireworks() {
+      const canvas = document.getElementById("fireworksCanvas");
+      const ctx = canvas.getContext("2d");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      let particles = [];
+
+      function createFirework() {
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height / 2;
+        const colors = ["#ff4081", "#ffd740", "#40c4ff", "#69f0ae", "#ff1744"];
+
+        for (let i = 0; i < 50; i++) {
+          particles.push({
+            x, y,
+            dx: (Math.random()-0.5)*4,
+            dy: (Math.random()-0.5)*4,
+            life: 100,
+            color: colors[Math.floor(Math.random()*colors.length)]
+          });
+        }
+      }
+
+      function animate() {
+        ctx.fillStyle = "rgba(0,0,0,0.2)";
+        ctx.fillRect(0,0,canvas.width,canvas.height);
+
+        particles.forEach((p, i) => {
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, 2, 0, Math.PI*2);
+          ctx.fillStyle = p.color;
+          ctx.fill();
+          p.x += p.dx;
+          p.y += p.dy;
+          p.life--;
+          if (p.life <= 0) particles.splice(i,1);
+        });
+
+        if (Math.random() < 0.05) createFirework();
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    }
+
+    checkFestival();
+  </script>
+</body>
+</html>

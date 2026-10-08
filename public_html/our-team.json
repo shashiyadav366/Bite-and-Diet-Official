@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dietician Priyanka",
+    "position": "Founder, Bite&Diet",
+    "image": "images/team-member/team-img01.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100008839540596",
+    "instagram": "https://www.instagram.com/bite_and_diet/",
+    "linkedin": "https://www.linkedin.com/in/dietician-priyanka",
+    "profileUrl": "aboutdtpriyanka.php"
+  },
+  {
+    "name": "Ved Yadav",
+    "position": "Co-Founder, Managing Director",
+    "image": "images/team-member/team-img02.jpg",
+    "linkedin": "",
+    "profileUrl": ""
+  },
+  {
+    "name": "Shashi Yadav",
+    "position": "Technical Head",
+    "image": "images/team-member/team-img03.jpg",
+    "linkedin": "https://www.linkedin.com/in/shashi-prakash-yadav/",
+    "profileUrl": ""
+  },
+  {
+    "name": "Priyanka Yadav",
+    "position": "Account Manager",
+    "image": "images/team-member/team-img04.jpg",
+    "linkedin": "",
+    "profileUrl": ""
+  }
+]

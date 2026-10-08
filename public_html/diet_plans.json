@@ -1,0 +1,1760 @@
+{
+  "diet_plans": [
+    {
+      "diet_id": "0",
+      "diet_name": "Recovery Diet Plan After Illness",
+      "diet_url": "recovery-diet-plan-after-illness",
+      "title": "Recovery Diet Plan",
+      "image": "images/dietplan_images/0.jpg",
+      "description": "This plan helps you recover after a serious illness, providing essential nutrients to regain strength.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Recover from illness with a balanced diet.",
+        "bullet_points": [
+          "Regain strength",
+          "Boost immunity",
+          "Quick recovery"
+        ]
+      },
+      "complications": [
+        "Weakness",
+        "Dehydration",
+        "Malnutrition"
+      ],
+      "how_it_helps": [
+        "Proper hydration",
+        "Balanced nutrient intake",
+        "Focus on recovery"
+      ],
+      "lifestyle_improvements": [
+        "Eat frequent, small meals",
+        "Stay hydrated",
+        "Get enough rest"
+      ]
+    },
+    {
+      "diet_id": "1",
+      "diet_name": "Post Covid Recovery Plan",
+      "diet_url": "post-covid-recovery-plan",
+      "title": "Post Covid Recovery Plan",
+      "image": "images/dietplan_images/1.jpg",
+      "description": "Helps in managing post-COVID symptoms and boosts recovery.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Boost immunity post-COVID with this plan.",
+        "bullet_points": [
+          "Strength recovery",
+          "Immunity boost",
+          "Lung health"
+        ]
+      },
+      "complications": [
+        "Fatigue",
+        "Breathing issues",
+        "Nutrient deficiencies"
+      ],
+      "how_it_helps": [
+        "Improving lung function",
+        "Providing essential nutrients",
+        "Boosting immune response"
+      ],
+      "lifestyle_improvements": [
+        "Balanced diet with essential nutrients",
+        "Regular breathing exercises",
+        "Adequate sleep"
+      ]
+    },
+    {
+      "diet_id": "2",
+      "diet_name": "Weight Loss Plan",
+      "diet_url": "weight-loss-plan",
+      "title": "Weight Loss Plan",
+      "image": "images/dietplan_images/2.jpg",
+      "description": "Designed for healthy weight loss while maintaining muscle mass.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Lose weight safely and effectively.",
+        "bullet_points": [
+          "Safe weight loss",
+          "Muscle retention",
+          "Increased energy"
+        ]
+      },
+      "complications": [
+        "Obesity",
+        "High blood pressure",
+        "Heart disease"
+      ],
+      "how_it_helps": [
+        "Balancing diet and exercise",
+        "Customized calorie intake",
+        "Regular fitness guidance"
+      ],
+      "lifestyle_improvements": [
+        "Balanced diet",
+        "Daily exercise",
+        "Stress management"
+      ]
+    },
+    {
+      "diet_id": "3",
+      "diet_name": "Diet Plan To Reduce Belly Fat",
+      "diet_url": "diet-plan-to-reduce-belly-fat",
+      "title": "Diet Plan To Reduce Belly Fat",
+      "image": "images/dietplan_images/3.jpg",
+      "description": "Helps in reducing belly fat with a focus on a balanced diet and exercise.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Target belly fat with this comprehensive plan.",
+        "bullet_points": [
+          "Belly fat reduction",
+          "Improved digestion",
+          "Enhanced core strength"
+        ]
+      },
+      "complications": [
+        "Visceral fat",
+        "Digestive issues",
+        "Bloating"
+      ],
+      "how_it_helps": [
+        "Targeted fat loss",
+        "Improving core strength",
+        "Balancing metabolism"
+      ],
+      "lifestyle_improvements": [
+        "Consistent exercise",
+        "Balanced meals",
+        "Mindful eating"
+      ]
+    },
+    
+  
+    {
+      "diet_id": "4",
+      "diet_name": "Post Pregnancy Weight Loss Plan",
+      "diet_url": "post-pregnancy-weight-loss-diet-plan",
+      "title": "Post Pregnancy Weight Loss Plan",
+      "image": "images/dietplan_images/4.jpg",
+      "description": "Focuses on losing pregnancy weight while maintaining energy and nutrition for new mothers.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Safely lose post-pregnancy weight.",
+        "bullet_points": [
+          "Healthy weight loss",
+          "Maintain energy levels",
+          "Nutrient-rich meals"
+        ]
+      },
+      "complications": [
+        "Hormonal imbalance",
+        "Low energy",
+        "Nutritional deficiencies"
+      ],
+      "how_it_helps": [
+        "Helps in balanced weight loss",
+        "Focus on nutrient-rich meals",
+        "Maintains energy for new mothers"
+      ],
+      "lifestyle_improvements": [
+        "Regular light exercise",
+        "Healthy meal planning",
+        "Adequate sleep and hydration"
+      ]
+    },
+    {
+      "diet_id": "5",
+      "diet_name": "Weight Gain Plan",
+      "diet_url": "weight-gain-plan",
+      "title": "Weight Gain Plan",
+      "image": "images/dietplan_images/5.jpg",
+      "description": "A plan focused on healthy weight gain, with calorie-dense, nutritious meals.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Gain weight the healthy way.",
+        "bullet_points": [
+          "Increase healthy fat",
+          "Muscle gain focus",
+          "Nutrient-dense diet"
+        ]
+      },
+      "complications": [
+        "Underweight issues",
+        "Lack of muscle mass",
+        "Weak immune system"
+      ],
+      "how_it_helps": [
+        "Provides high-calorie meals",
+        "Boosts muscle growth",
+        "Improves overall nutrition"
+      ],
+      "lifestyle_improvements": [
+        "Strength training",
+        "Calorie surplus intake",
+        "Frequent nutritious meals"
+      ]
+    },
+    {
+      "diet_id": "6",
+      "diet_name": "PCOS Management Plan",
+      "diet_url": "pcos-management-diet-plan",
+      "title": "PCOS Management Diet Plan",
+      "image": "images/dietplan_images/6.jpg",
+      "description": "Helps manage PCOS symptoms through proper nutrition and balanced hormone levels.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Manage PCOS with this plan.",
+        "bullet_points": [
+          "Regulate hormones",
+          "Improve insulin sensitivity",
+          "Reduce inflammation"
+        ]
+      },
+      "complications": [
+        "Hormonal imbalance",
+        "Weight gain",
+        "Irregular periods"
+      ],
+      "how_it_helps": [
+        "Balances hormone levels",
+        "Focus on low-glycemic foods",
+        "Reduces symptoms of PCOS"
+      ],
+      "lifestyle_improvements": [
+        "Balanced meal planning",
+        "Stress management techniques",
+        "Regular exercise"
+      ]
+    },
+    {
+      "diet_id": "7",
+      "diet_name": "Diet For Irregular Periods",
+      "diet_url": "diet-for-irregular-periods",
+      "title": "Diet Plan for Irregular Periods",
+      "image": "images/dietplan_images/7.jpg",
+      "description": "Helps regulate menstrual cycles through a hormone-balancing diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Balance hormones and regulate your periods.",
+        "bullet_points": [
+          "Hormonal balance",
+          "Improved menstrual cycle",
+          "Increased energy"
+        ]
+      },
+      "complications": [
+        "Hormonal imbalance",
+        "Irregular cycles",
+        "Fatigue"
+      ],
+      "how_it_helps": [
+        "Improves menstrual regularity",
+        "Balances nutrient intake",
+        "Increases energy levels"
+      ],
+      "lifestyle_improvements": [
+        "Balanced nutrition",
+        "Adequate hydration",
+        "Stress management"
+      ]
+    },
+    {
+      "diet_id": "8",
+      "diet_name": "Diet For Male Infertility",
+      "diet_url": "diet-for-male-infertility",
+      "title": "Diet Plan for Male Infertility",
+      "image": "images/dietplan_images/8.jpg",
+      "description": "Improves fertility in men by focusing on nutrition that boosts sperm health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Boost male fertility naturally.",
+        "bullet_points": [
+          "Increase sperm quality",
+          "Boost male reproductive health",
+          "Reduce oxidative stress"
+        ]
+      },
+      "complications": [
+        "Low sperm count",
+        "Poor sperm motility",
+        "Oxidative stress"
+      ],
+      "how_it_helps": [
+        "Provides antioxidants",
+        "Improves sperm health",
+        "Boosts overall reproductive function"
+      ],
+      "lifestyle_improvements": [
+        "Nutrient-rich meals",
+        "Regular exercise",
+        "Stress management"
+      ]
+    },
+   
+    {
+      "diet_id": "9",
+      "diet_name": "Diet For Female Infertility",
+      "diet_url": "diet-for-female-infertility",
+      "title": "Diet Plan for Female Infertility",
+      "image": "images/dietplan_images/9.jpg",
+      "description": "Focuses on improving female fertility through balanced nutrition and hormonal support.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance female fertility with nutrition.",
+        "bullet_points": [
+          "Boost reproductive health",
+          "Support hormone balance",
+          "Improve egg quality"
+        ]
+      },
+      "complications": [
+        "Hormonal imbalance",
+        "Irregular cycles",
+        "Nutritional deficiencies"
+      ],
+      "how_it_helps": [
+        "Provides essential nutrients",
+        "Supports hormonal balance",
+        "Improves fertility potential"
+      ],
+      "lifestyle_improvements": [
+        "Balanced meals",
+        "Stress management",
+        "Physical activity"
+      ]
+    },
+    {
+      "diet_id": "10",
+      "diet_name": "Diet For IVF(In Vitro Fertilization)",
+      "diet_url": "diet-for-IVF",
+      "title": "Diet Plan for IVF (In Vitro Fertilization)",
+      "image": "images/dietplan_images/10.jpg",
+      "description": "Supports IVF treatment by optimizing nutrition for reproductive health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance IVF success with proper nutrition.",
+        "bullet_points": [
+          "Improve IVF outcomes",
+          "Boost reproductive health",
+          "Support hormonal balance"
+        ]
+      },
+      "complications": [
+        "Hormonal imbalance",
+        "Reduced egg quality",
+        "IVF failure"
+      ],
+      "how_it_helps": [
+        "Enhances reproductive health",
+        "Boosts egg and sperm quality",
+        "Supports overall IVF success"
+      ],
+      "lifestyle_improvements": [
+        "Healthy meal planning",
+        "Stress reduction",
+        "Gentle physical activity"
+      ]
+    },
+    {
+      "diet_id": "11",
+      "diet_name": "Diabetes Management Plan",
+      "diet_url": "diabetes-management-plan",
+      "title": "Diabetes Management Diet Plan",
+      "image": "images/dietplan_images/11.jpg",
+      "description": "Helps manage blood sugar levels through a balanced diet, focusing on low-glycemic foods.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Manage diabetes with a healthy diet.",
+        "bullet_points": [
+          "Control blood sugar levels",
+          "Improve insulin sensitivity",
+          "Manage weight effectively"
+        ]
+      },
+      "complications": [
+        "High blood sugar",
+        "Insulin resistance",
+        "Weight gain"
+      ],
+      "how_it_helps": [
+        "Lowers blood sugar spikes",
+        "Improves insulin function",
+        "Aids in weight management"
+      ],
+      "lifestyle_improvements": [
+        "Regular light exercise",
+        "Balanced, low-glycemic meals",
+        "Frequent glucose monitoring"
+      ]
+    },
+    {
+      "diet_id": "12",
+      "diet_name": "Cholesterol Management Plan",
+      "diet_url": "cholesterol-lowering-diet",
+      "title": "Cholesterol Management Diet Plan",
+      "image": "images/dietplan_images/12.jpg",
+      "description": "Focuses on lowering bad cholesterol (LDL) and raising good cholesterol (HDL) through heart-healthy foods.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Lower your cholesterol with the right diet.",
+        "bullet_points": [
+          "Reduce LDL levels",
+          "Increase HDL levels",
+          "Improve heart health"
+        ]
+      },
+      "complications": [
+        "High cholesterol",
+        "Risk of heart disease",
+        "Plaque build-up in arteries"
+      ],
+      "how_it_helps": [
+        "Lowers LDL cholesterol",
+        "Raises HDL cholesterol",
+        "Promotes cardiovascular health"
+      ],
+      "lifestyle_improvements": [
+        "Regular cardiovascular exercise",
+        "Low saturated fat intake",
+        "Balanced, heart-healthy diet"
+      ]
+    },
+    {
+      "diet_id": "13",
+      "diet_name": "Diet To Stop Hypertension / High Blood Pressure",
+      "diet_url": "diet-to-stop-hypertension-high-blood-pressure",
+      "title": "Diet Plan to Stop Hypertension / High Blood Pressure",
+      "image": "images/dietplan_images/13.jpg",
+      "description": "Helps in controlling high blood pressure through a diet rich in potassium and low in sodium.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Control hypertension with proper nutrition.",
+        "bullet_points": [
+          "Lower blood pressure",
+          "Improve heart health",
+          "Reduce sodium intake"
+        ]
+      },
+      "complications": [
+        "High blood pressure",
+        "Risk of stroke",
+        "Risk of heart disease"
+      ],
+      "how_it_helps": [
+        "Reduces sodium levels",
+        "Lowers blood pressure",
+        "Improves cardiovascular health"
+      ],
+      "lifestyle_improvements": [
+        "Reduce salt intake",
+        "Regular light exercise",
+        "Balanced potassium-rich meals"
+      ]
+    },
+
+    {
+      "diet_id": "14",
+      "diet_name": "Pain Management Plan",
+      "diet_url": "pain-management-plan",
+      "title": "Diet Plan for Pain Management",
+      "image": "images/dietplan_images/14.jpg",
+      "description": "A dietary approach to managing chronic pain through anti-inflammatory foods.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Manage chronic pain with anti-inflammatory foods.",
+        "bullet_points": [
+          "Reduce inflammation",
+          "Support joint health",
+          "Minimize pain symptoms"
+        ]
+      },
+      "complications": [
+        "Chronic pain",
+        "Inflammation",
+        "Joint discomfort"
+      ],
+      "how_it_helps": [
+        "Lowers inflammation levels",
+        "Supports joint and bone health",
+        "Provides essential nutrients for pain relief"
+      ],
+      "lifestyle_improvements": [
+        "Regular low-impact exercise",
+        "Anti-inflammatory diet",
+        "Adequate hydration"
+      ]
+    },
+    {
+      "diet_id": "15",
+      "diet_name": "Immunity Booster Diet",
+      "diet_url": "immunity-booster-plan",
+      "title": "Immunity Booster Diet Plan",
+      "image": "images/dietplan_images/15.jpg",
+      "description": "Boost your immune system with foods rich in vitamins, minerals, and antioxidants.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Boost your immunity with nutritious foods.",
+        "bullet_points": [
+          "Increase resistance to infections",
+          "Support immune system functions",
+          "Provide antioxidants"
+        ]
+      },
+      "complications": [
+        "Frequent infections",
+        "Weak immune system",
+        "Nutrient deficiencies"
+      ],
+      "how_it_helps": [
+        "Strengthens immune response",
+        "Provides essential vitamins and minerals",
+        "Boosts overall health and well-being"
+      ],
+      "lifestyle_improvements": [
+        "Balanced, nutrient-rich meals",
+        "Regular moderate exercise",
+        "Adequate sleep and hydration"
+      ]
+    },
+    {
+      "diet_id": "16",
+      "diet_name": "Hairfall Management Plan",
+      "diet_url": "hairfall-management-plan",
+      "title": "Hairfall Management Diet Plan",
+      "image": "images/dietplan_images/16.jpg",
+      "description": "Reduce hair fall and promote healthy hair growth with a nutrient-dense diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Prevent hair fall and promote healthy hair growth.",
+        "bullet_points": [
+          "Nourish hair from the roots",
+          "Prevent hair thinning",
+          "Support hair growth"
+        ]
+      },
+      "complications": [
+        "Hair thinning",
+        "Excessive hair fall",
+        "Nutritional deficiencies"
+      ],
+      "how_it_helps": [
+        "Provides essential vitamins for hair health",
+        "Strengthens hair follicles",
+        "Promotes hair regeneration"
+      ],
+      "lifestyle_improvements": [
+        "Healthy, protein-rich meals",
+        "Adequate hydration",
+        "Stress management techniques"
+      ]
+    },
+    {
+      "diet_id": "17",
+      "diet_name": "Diet For Anaemia Or Low Haemoglobin",
+      "diet_url": "diet-for-anaemia-low-haemoglobin",
+      "title": "Diet Plan for Anaemia or Low Haemoglobin",
+      "image": "images/dietplan_images/17.jpg",
+      "description": "Helps in raising haemoglobin levels through iron-rich foods and essential nutrients.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Raise haemoglobin levels with iron-rich foods.",
+        "bullet_points": [
+          "Improve haemoglobin levels",
+          "Reduce anaemia symptoms",
+          "Boost energy levels"
+        ]
+      },
+      "complications": [
+        "Fatigue",
+        "Low haemoglobin",
+        "Iron deficiency"
+      ],
+      "how_it_helps": [
+        "Increases iron intake",
+        "Boosts haemoglobin production",
+        "Supports overall blood health"
+      ],
+      "lifestyle_improvements": [
+        "Iron-rich meals",
+        "Vitamin C intake for better iron absorption",
+        "Balanced, nutrient-dense diet"
+      ]
+    },
+    {
+      "diet_id": "18",
+      "diet_name": "Diet For Jaundice Recovery",
+      "diet_url": "diet-for-jaundice-recovery",
+      "title": "Diet Plan for Jaundice Recovery",
+      "image": "images/dietplan_images/18.jpg",
+      "description": "Promotes liver health and recovery from jaundice with easy-to-digest foods.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Speed up jaundice recovery with a liver-friendly diet.",
+        "bullet_points": [
+          "Support liver health",
+          "Aid digestion",
+          "Boost recovery from jaundice"
+        ]
+      },
+      "complications": [
+        "Liver dysfunction",
+        "Yellowing of the skin",
+        "Fatigue"
+      ],
+      "how_it_helps": [
+        "Supports liver function",
+        "Provides easy-to-digest foods",
+        "Boosts recovery and healing"
+      ],
+      "lifestyle_improvements": [
+        "Low-fat, easy-to-digest meals",
+        "Adequate hydration",
+        "Avoiding heavy, fried foods"
+      ]
+    },
+    
+    
+    {
+      "diet_id": "19",
+      "diet_name": "Keto Diet Plan",
+      "diet_url": "keto-diet-plan",
+      "title": "Keto Diet Plan",
+      "image": "images/dietplan_images/19.jpg",
+      "description": "A low-carb, high-fat diet designed to help you lose weight and improve health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Lose weight effectively with the Keto Diet.",
+        "bullet_points": [
+          "Promote weight loss",
+          "Boost mental clarity",
+          "Increase energy levels"
+        ]
+      },
+      "complications": [
+        "Excess body fat",
+        "Lack of energy",
+        "Blood sugar imbalances"
+      ],
+      "how_it_helps": [
+        "Encourages fat burning",
+        "Stabilizes blood sugar levels",
+        "Improves mental focus"
+      ],
+      "lifestyle_improvements": [
+        "Increased physical activity",
+        "Adequate water intake",
+        "Intermittent fasting"
+      ]
+    },
+    {
+      "diet_id": "20",
+      "diet_name": "Diet For Osteoporosis/Weak Bones",
+      "diet_url": "diet-for-osteoporosis-weak-bones",
+      "title": "Diet Plan for Osteoporosis / Weak Bones",
+      "image": "images/dietplan_images/20.jpg",
+      "description": "Strengthen bones and reduce the risk of osteoporosis with a nutrient-rich diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Strengthen bones and prevent bone loss.",
+        "bullet_points": [
+          "Boost bone density",
+          "Improve calcium and vitamin D intake",
+          "Reduce the risk of fractures"
+        ]
+      },
+      "complications": [
+        "Bone weakness",
+        "Increased risk of fractures",
+        "Calcium deficiency"
+      ],
+      "how_it_helps": [
+        "Improves bone strength",
+        "Increases calcium and vitamin D levels",
+        "Promotes overall bone health"
+      ],
+      "lifestyle_improvements": [
+        "Weight-bearing exercises",
+        "Sun exposure for vitamin D",
+        "Calcium-rich foods"
+      ]
+    },
+    {
+      "diet_id": "21",
+      "diet_name": "Diet For Pimples/Acne",
+      "diet_url": "diet-for-pimples-acne",
+      "title": "Diet Plan for Pimples / Acne",
+      "image": "images/dietplan_images/21.jpg",
+      "description": "Clear your skin by adopting a healthy diet that reduces acne and promotes glowing skin.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Get clear skin by reducing acne with a nutrient-packed diet.",
+        "bullet_points": [
+          "Reduce acne breakouts",
+          "Improve skin texture",
+          "Nourish skin from within"
+        ]
+      },
+      "complications": [
+        "Acne-prone skin",
+        "Skin inflammation",
+        "Poor skin health"
+      ],
+      "how_it_helps": [
+        "Reduces acne-causing inflammation",
+        "Promotes skin healing",
+        "Balances oil production"
+      ],
+      "lifestyle_improvements": [
+        "Balanced diet with low glycemic index",
+        "Adequate hydration",
+        "Proper skincare routine"
+      ]
+    },
+    {
+      "diet_id": "22",
+      "diet_name": "Diet Plan For Tuberculosis",
+      "diet_url": "diet-for-tuberculosis",
+      "title": "Diet Plan for Tuberculosis",
+      "image": "images/dietplan_images/22.jpg",
+      "description": "Support recovery from tuberculosis with a nutrient-dense diet that boosts immunity.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Boost immunity and recover from tuberculosis with a healthy diet.",
+        "bullet_points": [
+          "Strengthen immunity",
+          "Boost recovery process",
+          "Improve overall health"
+        ]
+      },
+      "complications": [
+        "Fatigue",
+        "Weak immune system",
+        "Weight loss"
+      ],
+      "how_it_helps": [
+        "Enhances immunity",
+        "Promotes faster recovery",
+        "Increases energy levels"
+      ],
+      "lifestyle_improvements": [
+        "Nutrient-dense meals",
+        "Regular rest",
+        "Avoiding exposure to infections"
+      ]
+    },
+    {
+      "diet_id": "23",
+      "diet_name": "Diet To Reduce Uric Acid",
+      "diet_url": "diet-for-uric-acid",
+      "title": "Diet Plan to Reduce Uric Acid",
+      "image": "images/dietplan_images/23.jpg",
+      "description": "Reduce uric acid levels and prevent gout with a low-purine diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Lower uric acid levels and prevent gout with this diet plan.",
+        "bullet_points": [
+          "Reduce uric acid",
+          "Prevent gout attacks",
+          "Improve kidney function"
+        ]
+      },
+      "complications": [
+        "High uric acid",
+        "Gout attacks",
+        "Kidney issues"
+      ],
+      "how_it_helps": [
+        "Lowers uric acid production",
+        "Prevents gout flare-ups",
+        "Supports kidney health"
+      ],
+      "lifestyle_improvements": [
+        "Low-purine foods",
+        "Adequate hydration",
+        "Weight management"
+      ]
+    },
+
+    {
+      "diet_id": "24",
+      "diet_name": "Diet For IBS (Irritable Bowel Syndrome)",
+      "diet_url": "diet-for-ibs",
+      "title": "Diet Plan for Irritable Bowel Syndrome (IBS)",
+      "image": "images/dietplan_images/24.jpg",
+      "description": "Manage IBS symptoms with a tailored diet plan that soothes the digestive system.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Control IBS symptoms and improve gut health.",
+        "bullet_points": [
+          "Reduce bloating",
+          "Improve digestion",
+          "Soothe the stomach"
+        ]
+      },
+      "complications": [
+        "Digestive discomfort",
+        "Bloating",
+        "Constipation or diarrhea"
+      ],
+      "how_it_helps": [
+        "Reduces inflammation in the digestive tract",
+        "Promotes regular bowel movements",
+        "Balances gut flora"
+      ],
+      "lifestyle_improvements": [
+        "Low-FODMAP diet",
+        "Regular meal timings",
+        "Stress management"
+      ]
+    },
+    {
+      "diet_id": "25",
+      "diet_name": "Bodybuilding Diet",
+      "diet_url": "muscle-building",
+      "title": "Bodybuilding Diet Plan",
+      "image": "images/dietplan_images/25.jpg",
+      "description": "Build muscle mass and strength with a high-protein, nutrient-dense diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Maximize muscle gain and boost strength.",
+        "bullet_points": [
+          "Increase muscle mass",
+          "Boost strength",
+          "Improve recovery"
+        ]
+      },
+      "complications": [
+        "Muscle weakness",
+        "Slow muscle recovery",
+        "Inadequate protein intake"
+      ],
+      "how_it_helps": [
+        "Enhances muscle growth",
+        "Speeds up recovery",
+        "Improves overall strength"
+      ],
+      "lifestyle_improvements": [
+        "Consistent strength training",
+        "Adequate rest",
+        "Hydration and protein intake"
+      ]
+    },
+    {
+      "diet_id": "26",
+      "diet_name": "Energy Booster Diet",
+      "diet_url": "energy-booster-diet",
+      "title": "Energy Booster Diet Plan",
+      "image": "images/dietplan_images/26.jpg",
+      "description": "Boost energy levels and reduce fatigue with a balanced diet plan rich in vitamins.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance your energy and reduce fatigue.",
+        "bullet_points": [
+          "Increase energy levels",
+          "Improve mental alertness",
+          "Reduce fatigue"
+        ]
+      },
+      "complications": [
+        "Fatigue",
+        "Low energy levels",
+        "Mental exhaustion"
+      ],
+      "how_it_helps": [
+        "Increases nutrient absorption",
+        "Boosts metabolism",
+        "Promotes sustained energy"
+      ],
+      "lifestyle_improvements": [
+        "Balanced diet with regular meals",
+        "Adequate sleep",
+        "Physical activity"
+      ]
+    },
+    {
+      "diet_id": "27",
+      "diet_name": "Pregnancy Plan - Trimester Wise",
+      "diet_url": "pregnancy-diet-plan",
+      "title": "Trimester Wise Pregnancy Diet Plan",
+      "image": "images/dietplan_images/27.jpg",
+      "description": "Ensure a healthy pregnancy with a diet plan tailored to each trimester.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Support maternal and fetal health throughout pregnancy.",
+        "bullet_points": [
+          "Improve fetal development",
+          "Boost maternal health",
+          "Ensure proper nutrient intake"
+        ]
+      },
+      "complications": [
+        "Nutrient deficiencies",
+        "Fatigue",
+        "Gestational diabetes"
+      ],
+      "how_it_helps": [
+        "Promotes fetal growth",
+        "Provides essential vitamins and minerals",
+        "Supports maternal well-being"
+      ],
+      "lifestyle_improvements": [
+        "Regular prenatal check-ups",
+        "Proper hydration",
+        "Safe physical activity"
+      ]
+    },
+    {
+      "diet_id": "28",
+      "diet_name": "Diet For Gastric Issues",
+      "diet_url": "diet-for-gastric-issues",
+      "title": "Diet Plan for Gastric Issues",
+      "image": "images/dietplan_images/28.jpg",
+      "description": "Manage gastric issues like indigestion and bloating with a calming, low-acid diet.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Soothe your stomach and improve digestion.",
+        "bullet_points": [
+          "Reduce indigestion",
+          "Ease bloating",
+          "Promote gut health"
+        ]
+      },
+      "complications": [
+        "Gastric discomfort",
+        "Indigestion",
+        "Acid reflux"
+      ],
+      "how_it_helps": [
+        "Reduces stomach acidity",
+        "Promotes smoother digestion",
+        "Balances gut bacteria"
+      ],
+      "lifestyle_improvements": [
+        "Eating smaller, frequent meals",
+        "Reducing spicy and acidic foods",
+        "Staying active"
+      ]
+    },
+
+
+    {
+      "diet_id": "29",
+      "diet_name": "Skin Glow Plan",
+      "diet_url": "skin-glow-diet-plan",
+      "title": "Skin Glow Diet Plan",
+      "image": "images/dietplan_images/29.jpg",
+      "description": "Enhance your skin's radiance and health with a diet rich in vitamins and antioxidants.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Achieve a natural glow and improve skin health.",
+        "bullet_points": [
+          "Enhance skin radiance",
+          "Improve skin texture",
+          "Reduce signs of aging"
+        ]
+      },
+      "complications": [
+        "Dull skin",
+        "Premature aging",
+        "Uneven skin tone"
+      ],
+      "how_it_helps": [
+        "Provides essential nutrients for skin health",
+        "Boosts collagen production",
+        "Reduces oxidative stress"
+      ],
+      "lifestyle_improvements": [
+        "Hydration and balanced diet",
+        "Regular skincare routine",
+        "Protection from sun damage"
+      ]
+    },
+    {
+      "diet_id": "30",
+      "diet_name": "Detoxification Plan",
+      "diet_url": "detoxification-plan",
+      "title": "Detoxification Diet Plan",
+      "image": "images/dietplan_images/30.jpg",
+      "description": "Cleanse your body of toxins and promote overall health with a comprehensive detox plan.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Revitalize your body and enhance well-being.",
+        "bullet_points": [
+          "Eliminate toxins",
+          "Boost energy levels",
+          "Improve digestion"
+        ]
+      },
+      "complications": [
+        "Toxin buildup",
+        "Fatigue",
+        "Digestive issues"
+      ],
+      "how_it_helps": [
+        "Promotes liver health",
+        "Enhances digestive function",
+        "Supports overall detoxification"
+      ],
+      "lifestyle_improvements": [
+        "Regular physical activity",
+        "Adequate hydration",
+        "Balanced diet with detox-friendly foods"
+      ]
+    },
+    {
+      "diet_id": "31",
+      "diet_name": "Infant Nutrition Management Plan – 6 Months To 2 Years",
+      "diet_url": "infant-nutrition-management-plan",
+      "title": "Infant Nutrition Management Plan (6 Months to 2 Years)",
+      "image": "images/dietplan_images/31.jpg",
+      "description": "Support your infant's growth and development with a tailored nutrition plan for early years.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Ensure optimal growth and development during early childhood.",
+        "bullet_points": [
+          "Promote healthy growth",
+          "Support immune development",
+          "Provide essential nutrients"
+        ]
+      },
+      "complications": [
+        "Nutritional deficiencies",
+        "Growth delays",
+        "Weaning issues"
+      ],
+      "how_it_helps": [
+        "Supports healthy growth milestones",
+        "Provides balanced nutrition",
+        "Enhances immune system function"
+      ],
+      "lifestyle_improvements": [
+        "Regular pediatric check-ups",
+        "Balanced feeding schedule",
+        "Introduction of diverse, nutrient-rich foods"
+      ]
+    },
+    {
+      "diet_id": "32",
+      "diet_name": "Kids Nutrition Management Plan - Above 2 Years",
+      "diet_url": "kids-nutrition-management-plan",
+      "title": "Kids Nutrition Management Plan (Above 2 Years)",
+      "image": "images/dietplan_images/32.jpg",
+      "description": "Ensure proper nutrition for children above 2 years with a balanced diet plan for growth and development.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Support your child's growth and energy needs with a tailored diet plan.",
+        "bullet_points": [
+          "Promote healthy development",
+          "Boost energy levels",
+          "Improve overall health"
+        ]
+      },
+      "complications": [
+        "Nutritional imbalances",
+        "Growth issues",
+        "Poor eating habits"
+      ],
+      "how_it_helps": [
+        "Provides balanced nutrition for growth",
+        "Supports cognitive and physical development",
+        "Encourages healthy eating habits"
+      ],
+      "lifestyle_improvements": [
+        "Healthy meal planning",
+        "Regular physical activity",
+        "Family mealtime routines"
+      ]
+    },
+    {
+      "diet_id": "33",
+      "diet_name": "Kids Weight Loss Plan – Above 10 Years",
+      "diet_url": "kids-weightloss-plan",
+      "title": "Kids Weight Loss Plan (Above 10 Years)",
+      "image": "images/dietplan_images/33.jpg",
+      "description": "Help children above 10 years achieve a healthy weight with a balanced, age-appropriate diet plan.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Promote healthy weight management and overall wellness.",
+        "bullet_points": [
+          "Achieve healthy weight",
+          "Improve fitness",
+          "Support self-esteem"
+        ]
+      },
+      "complications": [
+        "Obesity",
+        "Low self-esteem",
+        "Health risks associated with excess weight"
+      ],
+      "how_it_helps": [
+        "Encourages balanced eating habits",
+        "Supports physical activity",
+        "Promotes healthy growth"
+      ],
+      "lifestyle_improvements": [
+        "Regular exercise",
+        "Healthy family meals",
+        "Positive reinforcement and support"
+      ]
+    },
+  
+
+    {
+      "diet_id": "34",
+      "diet_name": "Cancer Diet During Chemotherapy",
+      "diet_url": "cancer-diet-during-chemotherapy",
+      "title": "Cancer Diet During Chemotherapy",
+      "image": "images/dietplan_images/34.jpg",
+      "description": "Support your body during chemotherapy with a diet designed to maintain strength and manage side effects.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance treatment outcomes and manage side effects with a tailored diet plan.",
+        "bullet_points": [
+          "Maintain strength",
+          "Manage side effects",
+          "Boost immune function"
+        ]
+      },
+      "complications": [
+        "Nausea",
+        "Fatigue",
+        "Nutritional deficiencies"
+      ],
+      "how_it_helps": [
+        "Provides essential nutrients",
+        "Helps manage chemotherapy side effects",
+        "Supports overall well-being"
+      ],
+      "lifestyle_improvements": [
+        "Frequent small meals",
+        "Hydration",
+        "Consult with healthcare providers"
+      ]
+    },
+    {
+      "diet_id": "35",
+      "diet_name": "Post Typhoid Recovery Plan",
+      "diet_url": "typhoid-recovery-diet-plan",
+      "title": "Post Typhoid Recovery Diet Plan",
+      "image": "images/dietplan_images/35.jpg",
+      "description": "Aid recovery after typhoid with a diet plan that supports healing and restores strength.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Support recovery and regain strength with a nutrition-focused approach.",
+        "bullet_points": [
+          "Aid in recovery",
+          "Restore strength",
+          "Improve overall health"
+        ]
+      },
+      "complications": [
+        "Weakness",
+        "Nutritional deficiencies",
+        "Digestive issues"
+      ],
+      "how_it_helps": [
+        "Supports immune recovery",
+        "Restores energy levels",
+        "Promotes digestive health"
+      ],
+      "lifestyle_improvements": [
+        "Gradual reintroduction of foods",
+        "Hydration and balanced meals",
+        "Regular follow-ups with healthcare provider"
+      ]
+    },
+    {
+      "diet_id": "36",
+      "diet_name": "Diet To Reduce Creatinine",
+      "diet_url": "diet-to-reduce-creatinine",
+      "title": "Diet To Reduce Creatinine",
+      "image": "images/dietplan_images/36.jpg",
+      "description": "Manage creatinine levels with a diet plan designed to support kidney health and reduce strain.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Improve kidney function and manage creatinine levels with targeted dietary changes.",
+        "bullet_points": [
+          "Reduce creatinine levels",
+          "Support kidney health",
+          "Promote overall wellness"
+        ]
+      },
+      "complications": [
+        "Kidney dysfunction",
+        "High creatinine levels",
+        "Fluid retention"
+      ],
+      "how_it_helps": [
+        "Supports kidney function",
+        "Helps manage creatinine levels",
+        "Promotes fluid balance"
+      ],
+      "lifestyle_improvements": [
+        "Limit protein intake",
+        "Increase hydration",
+        "Regular kidney function monitoring"
+      ]
+    },
+    {
+      "diet_id": "37",
+      "diet_name": "Renal Diet",
+      "diet_url": "renal-diet-plan",
+      "title": "Renal Diet Plan",
+      "image": "images/dietplan_images/37.jpg",
+      "description": "Optimize kidney health with a renal diet plan that supports function and minimizes stress on the kidneys.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance kidney function and manage renal health with a specialized diet.",
+        "bullet_points": [
+          "Support kidney function",
+          "Manage symptoms of renal disease",
+          "Promote overall health"
+        ]
+      },
+      "complications": [
+        "Kidney disease",
+        "Fluid imbalances",
+        "Electrolyte disturbances"
+      ],
+      "how_it_helps": [
+        "Promotes healthy kidney function",
+        "Helps manage symptoms of renal disease",
+        "Supports overall well-being"
+      ],
+      "lifestyle_improvements": [
+        "Monitor electrolytes",
+        "Limit sodium and phosphorus intake",
+        "Regular check-ups with a nephrologist"
+      ]
+    },
+    {
+      "diet_id": "38",
+      "diet_name": "Diet For Kidney Stone",
+      "diet_url": "diet-for-kidney-stone",
+      "title": "Diet For Kidney Stone",
+      "image": "images/dietplan_images/38.jpg",
+      "description": "Manage and prevent kidney stones with a diet plan that addresses contributing factors and supports kidney health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Prevent kidney stones and support kidney health with a diet designed to reduce risk.",
+        "bullet_points": [
+          "Prevent stone formation",
+          "Support kidney health",
+          "Manage symptoms"
+        ]
+      },
+      "complications": [
+        "Painful kidney stones",
+        "Urinary tract issues",
+        "Frequent kidney infections"
+      ],
+      "how_it_helps": [
+        "Reduces risk of stone formation",
+        "Supports kidney function",
+        "Helps manage existing stones"
+      ],
+      "lifestyle_improvements": [
+        "Increase fluid intake",
+        "Limit oxalate-rich foods",
+        "Regular monitoring of kidney health"
+      ]
+    },
+ 
+ 
+    {
+      "diet_id": "39",
+      "diet_name": "Fatty Liver Reversal Plan",
+      "diet_url": "fatty-liver-reversal-diet-plan",
+      "title": "Fatty Liver Reversal Plan",
+      "image": "images/dietplan_images/39.jpg",
+      "description": "Reverse fatty liver with a diet plan that focuses on liver health and detoxification.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Improve liver function and manage fatty liver with a specialized diet plan.",
+        "bullet_points": [
+          "Reverse fatty liver",
+          "Enhance liver health",
+          "Support detoxification"
+        ]
+      },
+      "complications": [
+        "Fatty liver disease",
+        "Liver inflammation",
+        "Increased risk of liver cirrhosis"
+      ],
+      "how_it_helps": [
+        "Supports liver detoxification",
+        "Reduces liver fat",
+        "Improves liver function"
+      ],
+      "lifestyle_improvements": [
+        "Avoid alcohol",
+        "Incorporate regular exercise",
+        "Maintain a balanced diet"
+      ]
+    },
+    {
+      "diet_id": "40",
+      "diet_name": "Diet To Manage Food Allergy",
+      "diet_url": "diet-to-manage-food-allergy",
+      "title": "Diet To Manage Food Allergy",
+      "image": "images/dietplan_images/40.jpg",
+      "description": "Manage food allergies with a diet plan that avoids allergens and supports overall health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Avoid food allergens and manage symptoms with a tailored diet plan.",
+        "bullet_points": [
+          "Avoid allergens",
+          "Reduce allergy symptoms",
+          "Support overall health"
+        ]
+      },
+      "complications": [
+        "Allergic reactions",
+        "Digestive issues",
+        "Skin rashes"
+      ],
+      "how_it_helps": [
+        "Reduces allergic reactions",
+        "Supports digestive health",
+        "Improves overall well-being"
+      ],
+      "lifestyle_improvements": [
+        "Read food labels carefully",
+        "Carry emergency medication",
+        "Consult with an allergist"
+      ]
+    },
+    {
+      "diet_id": "41",
+      "diet_name": "Pre-Bridal Care Plan",
+      "diet_url": "pre-bridal-care-plan",
+      "title": "Pre-Bridal Care Plan",
+      "image": "images/dietplan_images/41.jpg",
+      "description": "Prepare for your wedding with a diet plan focused on beauty, health, and wellness.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Achieve your best look for the wedding day with a comprehensive pre-bridal care diet plan.",
+        "bullet_points": [
+          "Enhance beauty",
+          "Improve overall health",
+          "Boost energy levels"
+        ]
+      },
+      "complications": [
+        "Skin issues",
+        "Stress",
+        "Diet-related deficiencies"
+      ],
+      "how_it_helps": [
+        "Improves skin health",
+        "Boosts energy levels",
+        "Supports overall wellness"
+      ],
+      "lifestyle_improvements": [
+        "Maintain a balanced diet",
+        "Manage stress levels",
+        "Incorporate regular exercise"
+      ]
+    },
+    {
+      "diet_id": "42",
+      "diet_name": "Diet For Urinary Tract Infection",
+      "diet_url": "diet-for-uninary-tract-infection",
+      "title": "Diet For Urinary Tract Infection",
+      "image": "images/dietplan_images/42.jpg",
+      "description": "Support urinary tract health and manage infections with a diet that promotes healing and reduces irritation.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Manage urinary tract infections and promote healing with a specialized diet plan.",
+        "bullet_points": [
+          "Support urinary tract health",
+          "Reduce infection symptoms",
+          "Promote overall wellness"
+        ]
+      },
+      "complications": [
+        "Painful urination",
+        "Frequent infections",
+        "Bladder discomfort"
+      ],
+      "how_it_helps": [
+        "Reduces infection symptoms",
+        "Supports urinary tract health",
+        "Promotes faster healing"
+      ],
+      "lifestyle_improvements": [
+        "Increase fluid intake",
+        "Avoid irritants",
+        "Consult with a healthcare provider"
+      ]
+    },
+    {
+      "diet_id": "43",
+      "diet_name": "Diet For Migraine",
+      "diet_url": "diet-for-migraine",
+      "title": "Diet For Migraine",
+      "image": "images/dietplan_images/43.jpg",
+      "description": "Manage and prevent migraines with a diet that identifies triggers and supports overall brain health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Prevent migraines and manage symptoms with a diet designed to address triggers and support brain health.",
+        "bullet_points": [
+          "Identify and avoid triggers",
+          "Support brain health",
+          "Reduce migraine frequency"
+        ]
+      },
+      "complications": [
+        "Severe headaches",
+        "Nausea",
+        "Sensitivity to light and sound"
+      ],
+      "how_it_helps": [
+        "Identifies and avoids migraine triggers",
+        "Supports brain health",
+        "Reduces the frequency and severity of migraines"
+      ],
+      "lifestyle_improvements": [
+        "Maintain a migraine diary",
+        "Avoid known triggers",
+        "Stay hydrated and well-nourished"
+      ]
+    },
+    
+    
+   
+    {
+      "diet_id": "44",
+      "diet_name": "Diet For Infections",
+      "diet_url": "diet-for-Infections",
+      "title": "Diet For Infections",
+      "image": "images/dietplan_images/44.jpg",
+      "description": "Support your immune system and aid in infection recovery with a diet that promotes healing and strengthens defenses.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance your immune system and aid in infection recovery with a diet tailored for better health.",
+        "bullet_points": [
+          "Support immune system",
+          "Aid in infection recovery",
+          "Promote overall health"
+        ]
+      },
+      "complications": [
+        "Prolonged infections",
+        "Weakened immune system",
+        "Increased susceptibility to illnesses"
+      ],
+      "how_it_helps": [
+        "Strengthens immune system",
+        "Supports faster recovery",
+        "Promotes overall wellness"
+      ],
+      "lifestyle_improvements": [
+        "Increase nutrient-rich foods",
+        "Maintain good hygiene",
+        "Stay hydrated"
+      ]
+    },
+    {
+      "diet_id": "45",
+      "diet_name": "Diet For Stress Management",
+      "diet_url": "diet-for-stress-management",
+      "title": "Diet For Stress Management",
+      "image": "images/dietplan_images/45.jpg",
+      "description": "Manage stress effectively with a diet designed to reduce stress levels and support mental health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Reduce stress and improve mental well-being with a diet plan focused on stress management.",
+        "bullet_points": [
+          "Reduce stress levels",
+          "Support mental health",
+          "Promote relaxation"
+        ]
+      },
+      "complications": [
+        "Chronic stress",
+        "Mental fatigue",
+        "Emotional instability"
+      ],
+      "how_it_helps": [
+        "Reduces stress levels",
+        "Supports mental health",
+        "Enhances overall well-being"
+      ],
+      "lifestyle_improvements": [
+        "Incorporate stress-relief activities",
+        "Maintain a balanced diet",
+        "Practice relaxation techniques"
+      ]
+    },
+    
+    
+    {
+      "diet_id": "46",
+      "diet_name": "Diet For Better Sleep",
+      "diet_url": "diet-for-better-sleep",
+      "title": "Diet For Better Sleep",
+      "image": "images/dietplan_images/46.jpg",
+      "description": "Improve sleep quality with a diet that supports better sleep patterns and enhances overall restfulness.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance your sleep quality with a diet plan tailored for better sleep and overall restfulness.",
+        "bullet_points": [
+          "Improve sleep patterns",
+          "Enhance restfulness",
+          "Support overall health"
+        ]
+      },
+      "complications": [
+        "Insomnia",
+        "Poor sleep quality",
+        "Sleep disturbances"
+      ],
+      "how_it_helps": [
+        "Supports better sleep quality",
+        "Enhances overall restfulness",
+        "Promotes healthy sleep patterns"
+      ],
+      "lifestyle_improvements": [
+        "Maintain a consistent sleep schedule",
+        "Avoid stimulants before bed",
+        "Create a restful environment"
+      ]
+    },
+    {
+      "diet_id": "47",
+      "diet_name": "Diet For Heart Health",
+      "diet_url": "diet-for-heart-health",
+      "title": "Diet For Heart Health",
+      "image": "images/dietplan_images/47.jpg",
+      "description": "Support cardiovascular health with a diet that promotes heart health and reduces risk factors for heart disease.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Promote heart health and reduce risk factors with a diet plan focused on cardiovascular well-being.",
+        "bullet_points": [
+          "Support cardiovascular health",
+          "Reduce risk of heart disease",
+          "Promote overall well-being"
+        ]
+      },
+      "complications": [
+        "Heart disease",
+        "High cholesterol",
+        "High blood pressure"
+      ],
+      "how_it_helps": [
+        "Reduces risk factors for heart disease",
+        "Supports cardiovascular health",
+        "Promotes overall wellness"
+      ],
+      "lifestyle_improvements": [
+        "Maintain a healthy weight",
+        "Exercise regularly",
+        "Avoid excessive salt and saturated fats"
+      ]
+    },
+    {
+      "diet_id": "48",
+      "diet_name": "Diet For Digestive Health",
+      "diet_url": "diet-for-digestive-health",
+      "title": "Diet For Digestive Health",
+      "image": "images/dietplan_images/48.jpg",
+      "description": "Improve digestive health with a diet that supports proper digestion and alleviates digestive issues.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Enhance digestive health and alleviate issues with a diet plan tailored for optimal digestion.",
+        "bullet_points": [
+          "Support proper digestion",
+          "Alleviate digestive issues",
+          "Promote overall gut health"
+        ]
+      },
+      "complications": [
+        "Digestive discomfort",
+        "Irritable bowel syndrome",
+        "Constipation or diarrhea"
+      ],
+      "how_it_helps": [
+        "Supports proper digestion",
+        "Alleviates digestive discomfort",
+        "Promotes overall gut health"
+      ],
+      "lifestyle_improvements": [
+        "Eat a balanced diet rich in fiber",
+        "Stay hydrated",
+        "Avoid trigger foods"
+      ]
+    },
+    {
+      "diet_id": "49",
+      "diet_name": "Thyroid Management Diet",
+      "diet_url": "thyroid-management-diet",
+      "title": "Thyroid Management Diet",
+      "image": "images/dietplan_images/49.jpg",
+      "description": "Manage hypothyroidism or hyperthyroidism with a diet that supports thyroid health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Customized diet plans for thyroid health management, designed to balance hormones and boost energy.",
+        "bullet_points": [
+          "Hormonal balance support",
+          "Boost metabolism",
+          "Improve energy levels"
+        ]
+      },
+      "complications": [
+        "Weight gain or loss",
+        "Fatigue",
+        "Hormonal imbalances"
+      ],
+      "how_it_helps": [
+        "Regulates thyroid function",
+        "Improves energy levels",
+        "Helps manage weight fluctuations"
+      ],
+      "lifestyle_improvements": [
+        "Avoid processed foods",
+        "Incorporate selenium-rich foods",
+        "Exercise regularly"
+      ]
+    },
+    {
+      "diet_id": "50",
+      "diet_name": "Diet For Senior Citizens",
+      "diet_url": "diet-for-senior-citizens",
+      "title": "Diet For Senior Citizens",
+      "image": "images/dietplan_images/50.jpg",
+      "description": "A balanced and nutrient-rich diet specifically designed for senior citizens to promote healthy aging.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Tailored diet plans to meet the nutritional needs of senior citizens for a healthier and more active life.",
+        "bullet_points": [
+          "Supports healthy aging",
+          "Enhances bone and joint health",
+          "Improves overall well-being"
+        ]
+      },
+      "complications": [
+        "Nutrient deficiencies",
+        "Bone and joint problems",
+        "Decreased energy levels"
+      ],
+      "how_it_helps": [
+        "Maintains healthy bones",
+        "Supports cardiovascular health",
+        "Promotes longevity"
+      ],
+      "lifestyle_improvements": [
+        "Increase calcium and vitamin D intake",
+        "Incorporate heart-healthy foods",
+        "Stay physically active"
+      ]
+    },
+    {
+      "diet_id": "51",
+      "diet_name": "Gluten-Free Diet Plan",
+      "diet_url": "gluten-free-diet-plan",
+      "title": "Gluten-Free Diet Plan",
+      "image": "images/dietplan_images/51.jpg",
+      "description": "A gluten-free diet designed for people with celiac disease or gluten sensitivity to improve digestion and overall health.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Eliminate gluten from your diet to reduce digestive issues and improve overall well-being.",
+        "bullet_points": [
+          "Improves digestion",
+          "Reduces inflammation",
+          "Boosts energy levels"
+        ]
+      },
+      "complications": [
+        "Celiac disease",
+        "Gluten sensitivity",
+        "Digestive discomfort"
+      ],
+      "how_it_helps": [
+        "Prevents gluten-related digestive issues",
+        "Reduces bloating and discomfort",
+        "Promotes a healthy gut"
+      ],
+      "lifestyle_improvements": [
+        "Avoid gluten-containing foods",
+        "Incorporate naturally gluten-free foods",
+        "Focus on balanced meals"
+      ]
+    },
+    {
+      "diet_id": "52",
+      "diet_name": "Vegan Diet Plan",
+      "diet_url": "vegan-diet-plan",
+      "title": "Vegan Diet Plan",
+      "image": "images/dietplan_images/52.jpg",
+      "description": "A plant-based diet that excludes all animal products, promoting health and environmental sustainability.",
+      "special_offers": {
+        "heading": "Special Offers",
+        "description": "Achieve optimal health with a vegan diet that is rich in plant-based nutrients.",
+        "bullet_points": [
+          "Supports heart health",
+          "Helps in weight management",
+          "Boosts overall well-being"
+        ]
+      },
+      "complications": [
+        "Vitamin B12 deficiency",
+        "Low calcium intake",
+        "Inadequate protein consumption"
+      ],
+      "how_it_helps": [
+        "Improves cardiovascular health",
+        "Promotes weight loss",
+        "Boosts energy and vitality"
+      ],
+      "lifestyle_improvements": [
+        "Incorporate plant-based proteins",
+        "Ensure sufficient vitamin B12 intake",
+        "Focus on balanced, whole-food meals"
+      ]
+    },
+    {
+  "diet_id": "53",
+
+  "diet_name": "Diet to Prevent Growth of Fibroids",
+
+  "diet_url": "diet-to-prevent-growth-of-fibroids",
+
+  "title": "Diet to Prevent Growth of Fibroids",
+
+  "image": "images/dietplan_images/53.jpg",
+
+  "description": "A specialized diet plan designed to balance hormones, reduce inflammation, and prevent the growth of fibroids naturally.",
+
+  "special_offers": {
+    "heading": "Special Offers",
+    "description": "Maintain hormonal balance and prevent fibroid growth with a diet rich in anti-inflammatory foods.",
+    "bullet_points": [
+      "Reduces inflammation naturally",
+      "Supports hormonal health",
+      "Promotes overall reproductive wellness"
+    ]
+  },
+
+  "complications": [
+    "Hormonal imbalances",
+    "Increased inflammation",
+    "Risk of fibroid growth and recurrence"
+  ],
+
+  "how_it_helps": [
+    "Balances estrogen levels",
+    "Reduces inflammation in the body",
+    "Provides essential nutrients for reproductive health"
+  ],
+
+  "lifestyle_improvements": [
+    "Incorporate anti-inflammatory foods like leafy greens and berries",
+    "Limit intake of processed and high-sugar foods",
+    "Focus on a diet rich in fiber, healthy fats, and lean proteins"
+  ]
+}
+
+  ]
+}

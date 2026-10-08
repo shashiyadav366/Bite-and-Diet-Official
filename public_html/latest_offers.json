@@ -1,0 +1,112 @@
+
+{
+  "offers": [
+    {
+      "title": "30-Day Summer Vacation Special Health & Diet Plan for Students",
+      "slug": "30-day-summer-vacation-student-diet-plan",
+      "image": "images/offers/summer-vacation-student-plan.webp",
+      "alt_text": "30-Day Summer Diet Plan for Students - Boost Immunity, Height & Focus",
+      "original_price": 2999,
+      "discounted_price": 1000,
+      "tagline": "Limited Period Offer",
+      "offer_details": {
+        "subtitle": "Unlock Your Child's Potential This Summer!",
+        "description": "This 30-day summer vacation special plan is designed to build a strong immune system, support natural height growth, improve memory, and promote a healthy body. Perfect for students struggling with diet and focus during the academic year. Ideal time for visible transformation!",
+        "benefits": [
+          "Boosts immunity before the monsoon season",
+          "Improves memory, focus & mental clarity",
+          "Helps in healthy weight loss (0.5–2 kg/week)",
+          "Supports height growth naturally",
+          "Daily personalized diet plan for students",
+          "Tasty, kid-friendly recipes",
+          "1-on-1 video consultation to resolve doubts",
+          "Weekly motivation & nutrition webinars",
+          "Daily reminders to build healthy habits",
+          "Tips for physical activity & better sleep",
+          "FREE post-plan maintenance guide"
+        ]
+      }
+    },
+    {
+      "title": "30-Day Express Weight Loss Diet Program",
+      "slug": "30-day-express-weight-loss-diet-program",
+      "image": "images/offers/express-weight-loss.webp",
+      "alt_text": "Express Weight Loss Diet Program - Bite and Diet",
+      "original_price": 10000,
+      "discounted_price": 5000,
+      "tagline": "Limited Period Offer",
+      "offer_details": {
+        "subtitle": "Ready to Shed Pounds Fast?",
+        "description": "Join our 30-Day Express Weight Loss Diet Program and lose maximum weight & inches without regaining! Don’t wait—your transformation starts NOW!",
+        "benefits": [
+          "Lose maximum weight & inches",
+          "No regaining of weight",
+          "Personalized diet plan",
+          "24*7 WhatsApp Assistance",
+          "Affordable price"
+        ]
+      }
+    },
+    {
+      "title": "90 Days Fit4ever Plan",
+      "slug": "90-days-fit4ever-plan",
+      "image": "images/offers/90day-challenge.webp",
+      "alt_text": "90day challenge diet plan - bite and diet",
+      "original_price": 7500,
+      "discounted_price": 5999,
+      "tagline": "Limited Period Offer",
+      "offer_details": {
+        "subtitle": "Join 90 Days Fit4ever Plan to Balance and say no to Medicines",
+        "description": "No matter what disease you are suffering from—Diabetes, High BP, Hypothyroid, PCOS, Irregular periods, Infertility, Heart problems, skin problems, Knee pain, high uric acid, constipation, Acidity, Gastric problems, Body ache, migraine, Asthma, Stress and depression, or excess weight—this plan is for you.",
+        "benefits": [
+          "Daily diet plan",
+          "Recipe videos",
+          "Unlimited consultation with Dt.Priyanka",
+          "Daily monitoring and measurements",
+          "Weekly progress report",
+          "24*7 WhatsApp Assistance",
+          "Travelling tips and special diet plans for festivals and parties",
+          "Free Webinar Sessions"
+        ]
+      }
+    },
+    {
+      "title": "21 days challenge to balance your body and mind",
+      "slug": "21-days-body-mind-balance-challenge",
+      "image": "images/offers/21day-challenge.webp",
+      "alt_text": "21day challenge offer bite and diet",
+      "original_price": 2500,
+      "discounted_price": 1999,
+      "tagline": "Limited Period Offer",
+      "offer_details": {
+        "subtitle": "Join the 21 days challenge to eliminate toxins and lose extra kilos.",
+        "description": "The 21 days challenge will help you eliminate toxins and lose the extra kilos you gained during festivals and parties.",
+        "benefits": [
+          "Resolve gastric problems like gas, acidity & bloating",
+          "Reduce inflammation or water retention",
+          "Lose 2-3 kilos gained during festivals or travel",
+          "Boost energy levels",
+          "Improve skin health for glowing skin"
+        ]
+      }
+    },
+    {
+      "title": "1 Week Detox Plan",
+      "slug": "1-week-detox-plan",
+      "image": "images/offers/detox-offer.webp",
+      "alt_text": "detox diet plan - bite and diet",
+      "original_price": 1000,
+      "discounted_price": 799,
+      "tagline": "Limited Period Offer",
+      "offer_details": {
+        "subtitle": "Join our 1 Week Detox Plan to cleanse your body.",
+        "description": "If you're short on time, our 1-week detox plan can help you cleanse your body quickly.",
+        "benefits": [
+          "Resolve gastric problems like gas, acidity, and bloating",
+          "Reduce toxins and improve overall health",
+          "Quick detox for busy schedules"
+        ]
+      }
+    }
+  ]
+}

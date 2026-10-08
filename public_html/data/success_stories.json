@@ -1,0 +1,128 @@
+[
+    {
+        "id": 25,
+        "name": "Sakshi",
+        "image": "success_story/girl.jpeg",
+        "dietplan_type": "Diabetes management",
+        "achievement": "Reduced blood sugar from 350 to 125 mg/dl",
+        "pdf": "success_story/How Sakshi reduced her blood sugar from 350 to 125.pdf",
+        "created_at": "2024-01-24 12:57:45"
+    },
+    {
+        "id": 24,
+        "name": "Geeta Das",
+        "image": "success_story/WhatsApp Image 2024-01-10 at 11.23.33 (1).jpeg",
+        "dietplan_type": "Diet plan for weight management, PCOS and Depression",
+        "achievement": "I lost about 8 kg in 3 months and again my period was on time.  I felt lighter now and full of energy. And now I don't need to depend on alcohol to deal with stress.",
+        "pdf": "success_story/Nutrition Strategy followed by Geeta for weight management.pdf",
+        "created_at": "2024-01-17 11:13:56"
+    },
+    {
+        "id": 23,
+        "name": "Rakesh",
+        "image": "success_story/Boy.jpeg",
+        "dietplan_type": "Diet to boost male fertility",
+        "achievement": "In just three months, Rakesh's sperm count and motility increased",
+        "pdf": "success_story/Rakesh sperm.pdf",
+        "created_at": "2024-01-14 02:50:55"
+    },
+    {
+        "id": 22,
+        "name": "Rishi Shukla",
+        "image": "success_story/WhatsApp Image 2024-01-12 at 12.59.03.jpeg",
+        "dietplan_type": "Management of Weight, Inflammed liver & Joint pain",
+        "achievement": "Lost around 10 kg in just two months. No more joint pain now. My belly size reduced significantly, and I now felt lighter and more energized. ",
+        "pdf": "success_story/Rishi.pdf",
+        "created_at": "2024-01-12 07:36:51"
+    },
+    {
+        "id": 21,
+        "name": "Ashwini",
+        "image": "success_story/WhatsApp Image 2024-01-10 at 11.23.33.jpeg",
+        "dietplan_type": "Management of Weight, Excessive bloating & Depression",
+        "achievement": "Lost weight, digestion has improved and she can feel a positive change in her mood",
+        "pdf": "success_story/Ashwini.pdf",
+        "created_at": "2024-01-10 05:56:03"
+    },
+    {
+        "id": 20,
+        "name": "Duggu",
+        "image": "success_story/WhatsApp Image 2024-01-09 at 16.25.01.jpeg",
+        "dietplan_type": "Management of weight, hypothyroid and excessive acidity",
+        "achievement": "Lost weight, improved digestion, feeling more active ",
+        "pdf": "success_story/Duggu.pdf",
+        "created_at": "2024-01-09 10:59:22"
+    },
+    {
+        "id": 19,
+        "name": "Nitasha",
+        "image": "success_story/Defining+characteristic_+The+roundness+and+softness+in+your+face+shape+and+features!+Rounder+lines+and+plumper+cheeks+than+the+oval+face+shape_.jpg",
+        "dietplan_type": "Weight management",
+        "achievement": "Lost 10 Kg in 3 months",
+        "pdf": "success_story/Nitasa.pdf",
+        "created_at": "2024-01-07 06:43:26"
+    },
+    {
+        "id": 18,
+        "name": "Barkha",
+        "image": "success_story/ea16ab11-37d2-4d6d-82bf-27c26ad6c8e0.jpg",
+        "dietplan_type": "Weight & PCOS management",
+        "achievement": "Lost 10 Kg in 3 months",
+        "pdf": "success_story/How Barkha lost 10Kg in 3 months.pdf",
+        "created_at": "2024-01-05 11:58:08"
+    },
+    {
+        "id": 14,
+        "name": "Mr. Swarn Singh",
+        "image": "success_story/man.png",
+        "dietplan_type": "Cholesterol Management",
+        "achievement": "Successfully reduced \r\nhis Cholesterol without medicines\r\n",
+        "pdf": "success_story/story6.pdf",
+        "created_at": "2023-07-14 20:58:55"
+    },
+    {
+        "id": 13,
+        "name": "Abhay Shally",
+        "image": "success_story/abhay.png",
+        "dietplan_type": "Weight Management",
+        "achievement": "Lost 7 Kilos in 6 weeks",
+        "pdf": "success_story/story5.pdf",
+        "created_at": "2023-07-14 20:56:29"
+    },
+    {
+        "id": 12,
+        "name": "Dr. Madanlal",
+        "image": "success_story/madanlal.png",
+        "dietplan_type": "Diabetes Management",
+        "achievement": "Successfully reduced his dose \r\nof insulin from 40units to 15 units\r\n",
+        "pdf": "success_story/story4.pdf",
+        "created_at": "2023-07-14 20:54:46"
+    },
+    {
+        "id": 11,
+        "name": "Sarika Pant",
+        "image": "success_story/sarikapant.png",
+        "dietplan_type": "Weight & Hypothroid Management",
+        "achievement": "Lost Weight Despite My Thyroid Condition",
+        "pdf": "success_story/story3.pdf",
+        "created_at": "2023-07-14 20:53:30"
+    },
+    {
+        "id": 10,
+        "name": "Naresh",
+        "image": "success_story/naresh.png",
+        "dietplan_type": "Diabetes Management",
+        "achievement": "Now Mr. Naresh Tiwari Don't Need To Take Diabetes Medicines\r\n",
+        "pdf": "success_story/story2.pdf",
+        "created_at": "2023-07-14 20:51:09"
+    },
+    {
+        "id": 9,
+        "name": "Anjali",
+        "image": "success_story/anjali.png",
+        "dietplan_type": "Body toning, Antiageing & Hairfall Management",
+        "achievement": "She reduced her Hairfall complaint with Antiaging Diet",
+        "pdf": "success_story/story1.pdf",
+        "created_at": "2023-07-14 20:42:44"
+    }
+]

@@ -1,0 +1,291 @@
+# ---------------------------------------------------
+# biteanddiet.in - Apache rewrite configuration
+# Works locally (localhost) AND on live server.
+# ---------------------------------------------------
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# ---------------------------------------------------
+# 1. Force HTTPS + WWW (canonical) - skipped on localhost
+# ---------------------------------------------------
+RewriteCond %{HTTP_HOST} !^localhost [NC]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.biteanddiet\.in$ [NC]
+RewriteRule ^(.*)$ https://www.biteanddiet.in/$1 [L,R=301]
+
+# ---------------------------------------------------
+# 2. Remove tracking parameters (fbclid, utm_*, gclid, ...)
+# ---------------------------------------------------
+RewriteCond %{QUERY_STRING} (^|&)(fbclid|utm_[^&]+|gclid|_hsenc|_hsmi)=[^&]+(&|$) [NC]
+RewriteRule ^ %{REQUEST_URI}? [R=301,L]
+
+# ---------------------------------------------------
+# 3. Canonical SEO redirect: .php URLs -> extensionless (301)
+# ---------------------------------------------------
+RewriteCond %{THE_REQUEST} \.php[?\s] [NC]
+RewriteRule ^(.+)\.php$ /$1 [L,R=301]
+
+# ---------------------------------------------------
+# 4. Legacy / alias redirects (301) - prevent soft-404s
+# ---------------------------------------------------
+RewriteRule ^about-us/?$ /our-team [L,R=301]
+RewriteRule ^health-tips/?$ /healthy-living [L,R=301]
+RewriteRule ^allposts$ /blog-posts [R=301,L]
+RewriteRule ^allvideos$ /videos [R=301,L]
+RewriteRule ^customer_reviews$ /customer-reviews [R=301,L]
+RewriteRule ^social_posts$ /healthy-living [R=301,L]
+RewriteRule ^offers/(.*)$ /latest-offers/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /readpost\? [NC]
+RewriteRule ^readpost$ /blog-posts? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /readmore\? [NC]
+RewriteRule ^readmore$ /blog-posts? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /video_player\? [NC]
+RewriteRule ^video_player$ /videos? [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /social_post_details\? [NC]
+RewriteRule ^social_post_details$ /healthy-living? [R=301,L]
+
+# ---------------------------------------------------
+# 5. Pass through real files/directories
+#    Prevents rewrite loops and protects existing files.
+# ---------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# ---------------------------------------------------
+# 6. Pretty URL content routes
+# ---------------------------------------------------
+RewriteRule ^video/([^/]+)/?$ video.php?slug=$1 [L,QSA]
+RewriteRule ^blog-post/([^/]+)/?$ blog-post.php?slug=$1 [L,QSA]
+RewriteRule ^search/([^/]+)/?$ search.php?term=$1 [L,QSA]
+RewriteRule ^health-tips/([\w\-]+)/?$ health-tips.php?slug=$1 [L,QSA]
+RewriteRule ^social-post/([A-Za-z0-9\-_]+)/?$ social-post.php?slug=$1 [L,QSA]
+RewriteRule ^latest-offers/([a-zA-Z0-9-]+)/?$ offer-details.php?slug=$1 [L,QSA]
+
+# ---------------------------------------------------
+# 7. CANONICAL DIET PLAN URL
+#
+# Example:
+# /plans-and-packages/weight-loss-plan
+#
+# This is the NEW canonical URL.
+# It internally loads diet-plan.php.
+# Browser URL remains unchanged.
+# ---------------------------------------------------
+RewriteRule ^plans-and-packages/([a-z0-9\-]+)/?$ diet-plan.php?slug=$1 [L,QSA,NC]
+
+# ---------------------------------------------------
+# 8. Extensionless PHP support
+# ---------------------------------------------------
+RewriteCond %{THE_REQUEST} ^[A-Z]+\s([^?\s]+) [NC]
+RewriteCond %{DOCUMENT_ROOT}%1.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# ---------------------------------------------------
+# 9. LEGACY ROOT-LEVEL DIET PLAN URL
+#
+# Old:
+# /weight-loss-plan
+#
+# Old:
+# /recovery-diet-plan-after-illness
+#
+# The request is sent internally to diet-plan.php.
+#
+# diet-plan.php reads diet_plans.json and checks
+# the "diet_url" field.
+#
+# If the slug exists in JSON:
+# 301 -> /plans-and-packages/<diet_url>
+#
+# No need to manually add 54 diet URLs here.
+# ---------------------------------------------------
+RewriteCond %{REQUEST_URI} !^/diet-plan/?$ [NC]
+RewriteCond %{REQUEST_URI} !^/plans-and-packages/ [NC]
+RewriteRule ^([a-z0-9\-]+)/?$ diet-plan.php?slug=$1 [L,QSA,NC]
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# Custom 404 Page
+# ---------------------------------------------------
+ErrorDocument 404 /error.php
+
+
+# ---------------------------------------------------
+# Performance: compression (gzip / deflate)
+# ---------------------------------------------------
+<IfModule mod_deflate.c>
+
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/ld+json
+
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/woff
+    AddOutputFilterByType DEFLATE font/woff2
+
+    <IfModule mod_setenvif.c>
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# Brotli compression
+# ---------------------------------------------------
+<IfModule mod_brotli.c>
+
+    AddOutputFilterByType BROTLI_COMPRESS text/plain
+    AddOutputFilterByType BROTLI_COMPRESS text/html
+    AddOutputFilterByType BROTLI_COMPRESS text/xml
+    AddOutputFilterByType BROTLI_COMPRESS text/css
+
+    AddOutputFilterByType BROTLI_COMPRESS application/xml
+    AddOutputFilterByType BROTLI_COMPRESS application/xhtml+xml
+    AddOutputFilterByType BROTLI_COMPRESS application/rss+xml
+    AddOutputFilterByType BROTLI_COMPRESS application/javascript
+    AddOutputFilterByType BROTLI_COMPRESS application/x-javascript
+    AddOutputFilterByType BROTLI_COMPRESS application/json
+    AddOutputFilterByType BROTLI_COMPRESS application/ld+json
+
+    AddOutputFilterByType BROTLI_COMPRESS image/svg+xml
+    AddOutputFilterByType BROTLI_COMPRESS font/ttf
+    AddOutputFilterByType BROTLI_COMPRESS font/otf
+    AddOutputFilterByType BROTLI_COMPRESS font/woff
+    AddOutputFilterByType BROTLI_COMPRESS font/woff2
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# Performance: browser caching
+# ---------------------------------------------------
+<IfModule mod_expires.c>
+
+    ExpiresActive On
+
+    ExpiresByType text/css "access plus 1 year"
+
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType application/x-javascript "access plus 1 year"
+    ExpiresByType text/javascript "access plus 1 year"
+
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/otf "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+
+    ExpiresByType application/pdf "access plus 1 month"
+
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType application/ld+json "access plus 0 seconds"
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# MIME types
+# ---------------------------------------------------
+<IfModule mod_mime.c>
+
+    AddType application/font-woff2 .woff2
+    AddType application/x-font-woff .woff
+    AddType application/vnd.ms-fontobject .eot
+
+    AddType font/ttf .ttf
+    AddType font/opentype .otf
+
+    AddType application/json .json
+    AddType image/webp .webp
+    AddType image/svg+xml .svg
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# Cache-Control headers
+# ---------------------------------------------------
+<IfModule mod_headers.c>
+
+    # Prevent Apache from caching dynamic PHP/HTML responses
+    <FilesMatch "\.(php)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+    </FilesMatch>
+
+    # Long-lived caching for static assets
+    <FilesMatch "\.(css|js|woff2?|ttf|otf)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    <FilesMatch "\.(png|jpe?g|webp|gif|svg|ico)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    <FilesMatch "\.(xml|txt)$">
+        Header set Cache-Control "public, max-age=3600"
+    </FilesMatch>
+
+    Header set Vary "Accept-Encoding"
+
+</IfModule>
+
+
+# ---------------------------------------------------
+# Security Headers
+# ---------------------------------------------------
+<IfModule mod_headers.c>
+
+    Header always set X-Content-Type-Options "nosniff"
+
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    Header always set X-XSS-Protection "1; mode=block"
+
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    Header always set Permissions-Policy "geolocation=(), microphone=()"
+
+</IfModule>
+# --- Secrets must never be served over HTTP (defence in depth) ---
+# Real values live one level above the web root in bd_config.php.
+<FilesMatch "^(credentials|app_config|form_guard)\.php$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

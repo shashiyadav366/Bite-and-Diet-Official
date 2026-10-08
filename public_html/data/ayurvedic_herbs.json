@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "name": "Amla",
+        "medical_usage": "Medical Usage",
+        "description": "Vitamin - C, Cough , Diabetes, Cold, Laxativ, Hyper Acidity."
+    },
+    {
+        "id": 2,
+        "name": "Ashok",
+        "medical_usage": "Medical Usage",
+        "description": "Menstrual Pain, Uterine, Disorder, Deiabetes."
+    },
+    {
+        "id": 3,
+        "name": "Aswagandha",
+        "medical_usage": "Medical Usage",
+        "description": "Restorative Tonic, Stress, Nerves Disorder, Aphrodiasiac."
+    },
+    {
+        "id": 4,
+        "name": "Bael / Bilva",
+        "medical_usage": "Medical Usage",
+        "description": "Diarrrhoea, Dysentry, Constipation."
+    },
+    {
+        "id": 5,
+        "name": "Bhumi Amla",
+        "medical_usage": "Medical Usage",
+        "description": "Aenimic, jaundice, Dropsy."
+    },
+    {
+        "id": 6,
+        "name": "Brahmi ",
+        "medical_usage": "Medical Usage",
+        "description": "Nervous, Memory enhancer,mental disorder."
+    },
+    {
+        "id": 7,
+        "name": "Chiraita",
+        "medical_usage": "Medical Usage",
+        "description": "Skin Desease, Burning, Censation, Fever."
+    },
+    {
+        "id": 8,
+        "name": "Gudmar / madhunasini",
+        "medical_usage": "Medical Usage",
+        "description": "Diabetes, Hydrocil, Asthama."
+    },
+    {
+        "id": 9,
+        "name": "Guggul",
+        "medical_usage": "Medical Usage",
+        "description": "Rheuma Tised, Arthritis, Paralysis, Laxative."
+    },
+    {
+        "id": 10,
+        "name": "Guluchi / Giloe",
+        "medical_usage": "Medical Usage",
+        "description": "Gout, Pile, General Debility, Fever, Jaundice."
+    },
+    {
+        "id": 11,
+        "name": "Calihari / panchanguliaGlori Lily",
+        "medical_usage": "Medical Usage",
+        "description": "Skin Desease, Labour Pain, Abortion, General Debility."
+    },
+    {
+        "id": 12,
+        "name": "Kalmegh/ Bhui neem",
+        "medical_usage": "Medical Usage",
+        "description": "Fever, Weekness, Release Of Gas."
+    },
+    {
+        "id": 13,
+        "name": "Long peeper / Pippali",
+        "medical_usage": "Medical Usage",
+        "description": "Appetizer, Enlarged Spleen , Bronchities, Cold, Antidote."
+    },
+    {
+        "id": 14,
+        "name": "Makoi Kakamachi",
+        "medical_usage": "Medical Usage",
+        "description": "Dropsy, General Debility,Diuretic, Anti Dysenteric."
+    },
+    {
+        "id": 15,
+        "name": "Pashan Bheda / Pathar Chur",
+        "medical_usage": "Medical Usage",
+        "description": "Kidny Stone, Calculus."
+    },
+    {
+        "id": 16,
+        "name": "Sandal Wood",
+        "medical_usage": "Medical Usage",
+        "description": "Skin Disorder, Burning, Sensation, Jaundice, Cough."
+    },
+    {
+        "id": 17,
+        "name": "Sarpa Gandha",
+        "medical_usage": "Medical Usage",
+        "description": "Hyper Tension, Insomnia."
+    },
+    {
+        "id": 18,
+        "name": "Satavari",
+        "medical_usage": "Medical Usage",
+        "description": "Enhance Lactation, General Weekness, Fatigue, Cough."
+    },
+    {
+        "id": 19,
+        "name": "Senna ",
+        "medical_usage": "Medical Usage",
+        "description": "Rheumatism, General Debility Tonic, Aphrodisiac."
+    },
+    {
+        "id": 20,
+        "name": "Tulsi (perennial) ",
+        "medical_usage": "Medical Usage",
+        "description": "Cough, Cold, Bronchitis,Expectorand."
+    },
+    {
+        "id": 21,
+        "name": "Vai Vidanka",
+        "medical_usage": "Medical Usage",
+        "description": "Skin Disease, Snake Bite, Helminthiasis."
+    },
+    {
+        "id": 22,
+        "name": "Pippermint Perennial",
+        "medical_usage": "Medical Usage",
+        "description": "Digestive, Pain Killer."
+    },
+    {
+        "id": 23,
+        "name": "Henna/Mehdi",
+        "medical_usage": "Medical Usage",
+        "description": "Burning, Steam, Anti Imflamatary."
+    },
+    {
+        "id": 24,
+        "name": "Gritkumari",
+        "medical_usage": "Medical Usage",
+        "description": "Laxative, Wound Healing, Skin Burns & Care,Ulcer."
+    },
+    {
+        "id": 25,
+        "name": "Sada Bahar Periwinkle/Nyantara",
+        "medical_usage": "Medical Usage",
+        "description": "Leaukamia, Hypotensiv, Antispasmodic , Atidot."
+    },
+    {
+        "id": 26,
+        "name": "Vringraj",
+        "medical_usage": "Medical Usage",
+        "description": "Anti-Inflamatory, Digestive, Hairtonic."
+    },
+    {
+        "id": 27,
+        "name": "Swet chitrak Perennial",
+        "medical_usage": "Medical Usage",
+        "description": "Appetiser, Antibacterial, Aticacer"
+    },
+    {
+        "id": 28,
+        "name": "Rakta Chitrak",
+        "medical_usage": "Medical Usage",
+        "description": "Indyspeipsia, Colic, Imflammation, Cough."
+    },
+    {
+        "id": 29,
+        "name": "Kochila",
+        "medical_usage": "Medical Usage",
+        "description": "Nervous, Paralysis, Healing Wound."
+    },
+    {
+        "id": 30,
+        "name": "Harida",
+        "medical_usage": "Medical Usage",
+        "description": "Trifala, Wound Ulcer, Leprosy, Inflammation, Cough."
+    },
+    {
+        "id": 31,
+        "name": "Bahada",
+        "medical_usage": "Medical Usage",
+        "description": "Cough, Insomnia, Dropsy, Vomiting, Ulcer, Trifala."
+    },
+    {
+        "id": 32,
+        "name": "Gokhur CrawlingPuncture Vine",
+        "medical_usage": "Medical Usage",
+        "description": "Sweet Cooling, Aphrodisiac, Appetizer, Digestive, Urinary."
+    },
+    {
+        "id": 33,
+        "name": "Neem",
+        "medical_usage": "Medical Usage",
+        "description": "Sedative, Analgesic, Epilepsy, Hypertensive."
+    },
+    {
+        "id": 34,
+        "name": "Anantamool/sariva Indian Sarap sarilla",
+        "medical_usage": "Medical Usage",
+        "description": "Appetiser, Carminative, Aphrodisiac, Astringent."
+    },
+    {
+        "id": 35,
+        "name": "Bach Sweet Flag",
+        "medical_usage": "Medical Usage",
+        "description": "Sedative, Analgesic, Epilepsy, Hypertensive."
+    },
+    {
+        "id": 36,
+        "name": "Vasa",
+        "medical_usage": "Medical Usage",
+        "description": "Antispasmodic, Respiratory, Stimulant."
+    },
+    {
+        "id": 37,
+        "name": "Nageswar Nag Champa",
+        "medical_usage": "Medical Usage",
+        "description": "Asthma, Skin, Burning, Vomiting, Dysentry, Piles."
+    },
+    {
+        "id": 38,
+        "name": "Benachar Khus/Khus",
+        "medical_usage": "Medical Usage",
+        "description": "Hyperdisia, Burning, Ulcer, Skin, Vomiting."
+    },
+    {
+        "id": 39,
+        "name": "Mandukparni Indianpennywort",
+        "medical_usage": "Medical Usage",
+        "description": "Antiinflamatory, Jundice, Diuretic, Diarrhoea."
+    },
+    {
+        "id": 40,
+        "name": "Kaincha/Creeper Baidanka",
+        "medical_usage": "Medical Usage",
+        "description": "Nervous, Disorder, Constipation, Nephroaphy, Strangury, Dropsy."
+    },
+    {
+        "id": 41,
+        "name": "Dalchini Perenial Shrub",
+        "medical_usage": "Medical Usage",
+        "description": "Bronchitis, Asthma, Cardiac, Disorder, Fever."
+    },
+    {
+        "id": 42,
+        "name": "Kurai",
+        "medical_usage": "Medical Usage",
+        "description": "Scabies, Antipyretic, Amoebic Dysentery."
+    },
+    {
+        "id": 43,
+        "name": "Kantakari / AkrantiPerennial",
+        "medical_usage": "Medical Usage",
+        "description": "Diuretic, Antiinflammatory, Appetiser, Stomachic."
+    },
+    {
+        "id": 44,
+        "name": "Ananas",
+        "medical_usage": "Medical Usage",
+        "description": "Sore Throat, Diabetes, Heart Disease, Obesity."
+    },
+    {
+        "id": 45,
+        "name": "Babool",
+        "medical_usage": "Medical Usage",
+        "description": "Oral Care, Bleeding Gums, Wounds"
+    },
+    {
+        "id": 46,
+        "name": "Dhaniya",
+        "medical_usage": "Medical Usage",
+        "description": "Indigestion, Flatulence, Controls Spasmodic Pain"
+    },
+    {
+        "id": 47,
+        "name": "Lashun",
+        "medical_usage": "Medical Usage",
+        "description": "Ringworm, Dysentery, Wounds"
+    },
+    {
+        "id": 48,
+        "name": "Nagarmotha",
+        "medical_usage": "Medical Usage",
+        "description": "Fever, Diabetes, Solar Dermatitis"
+    },
+    {
+        "id": 49,
+        "name": "Agarkasth",
+        "medical_usage": "Medical Usage",
+        "description": "Bed-Wetting, Incompetency Of Urinary Bladder"
+    },
+    {
+        "id": 50,
+        "name": "Shalparni",
+        "medical_usage": "Medical Usage",
+        "description": "Analgesic, Anti-Inflammatory."
+    },
+    {
+        "id": 51,
+        "name": "Badi Elaichi",
+        "medical_usage": "Medical Usage",
+        "description": "Bronchitis, Asthma, Appetizer, Digestant"
+    },
+    {
+        "id": 52,
+        "name": "Pyaj",
+        "medical_usage": "Medical Usage",
+        "description": "Prostate Cancer, Esophageal, Stomach Cancer."
+    },
+    {
+        "id": 53,
+        "name": "Bharangi",
+        "medical_usage": "Medical Usage",
+        "description": "Common Cold, Chronic Sinusitis, Allergic Rhinitis."
+    },
+    {
+        "id": 54,
+        "name": "Ratti",
+        "medical_usage": "Medical Usage",
+        "description": "Joint Pains, Paralysis, Alopecia."
+    },
+    {
+        "id": 55,
+        "name": "Meetha Vish",
+        "medical_usage": "Medical Usage",
+        "description": "Fever, Diuretic Action, Arthritis."
+    },
+    {
+        "id": 56,
+        "name": "Supari",
+        "medical_usage": "Medical Usage",
+        "description": "Obesity, Hyperlipidemia, Diabetes, Irregular Menstruation."
+    },
+    {
+        "id": 57,
+        "name": "Tamalpatra",
+        "medical_usage": "Medical Usage",
+        "description": "Diabetes, Digestion, Cold."
+    },
+    {
+        "id": 58,
+        "name": "Varun",
+        "medical_usage": "Medical Usage",
+        "description": "Kidney Stones, Bladder Stones."
+    },
+    {
+        "id": 59,
+        "name": "Mulethi",
+        "medical_usage": "Medical Usage",
+        "description": "Digestive Disorders, Ulcers, Bronchitis"
+    },
+    {
+        "id": 60,
+        "name": "Bhojpatra",
+        "medical_usage": "Medical Usage",
+        "description": "Wounds, Obesity"
+    }
+]
